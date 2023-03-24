@@ -20,7 +20,6 @@ body {
 .header-body-div {
   width: 100%;
   height: 7rem;
-  /* border-bottom: 1px solid #121c26; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,8 +55,7 @@ body {
 /* Home Styles */
 
 .home-body-div {
-  
-  margin-top: 10rem;
+  margin-top: 10vw;
 }
 
 .home-body-text {
@@ -82,6 +80,7 @@ body {
 }
 
 .img-link {
+  width: 40vw;
   overflow: hidden;
 }
 
@@ -93,14 +92,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: brightness(70%);
+  filter: brightness(60%);
   transition: transform .5s, filter .5s ease-in-out;
   transform-origin: center center;
 }
 
 .img-link:hover img {
   filter: brightness(105%);
-  transform: scale(1.10);
+  transform: scale(1.1);
   cursor: pointer;
 }
 

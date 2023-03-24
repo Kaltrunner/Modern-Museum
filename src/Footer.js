@@ -35,9 +35,12 @@ function Footer() {
             </a>
           </p>
 
+          <p className="footer-text"><a className="tag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-russell-software-engineer/">LinkedIn</a></p>
+
           <p className="footer-text"><a className="tag" target="_blank" rel="noreferrer" href="https://github.com/Kaltrunner" >GitHub</a></p>
 
-          <p className="footer-text"><a className="tag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-russell-software-engineer/">LinkedIn</a></p>
+          <p className="footer-text" ><a className="tag" target="_blank" rel="noreferrer" href="https://www.erikmrussell.com">Portfolio</a></p>
+
         </ul>
       </div>
       
