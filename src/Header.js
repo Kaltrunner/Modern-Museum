@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 function Header() {
   
@@ -16,15 +16,14 @@ function scrollFunction() {
     return (
          
         <div className="header-body-div" id="navbar" >
-            <h4 className="header-title" >Nútímasafn</h4>
+            <Link to="/" ><h4 className="header-title" >Nútímasafn</h4></Link>
             <div className="header-menu-div" >
-                <ul className="menu-list" >
-                    <li className="menu-item" >Tickets</li>
-                    <li className="menu-item" >Membership</li>
-                    <li className="menu-item" >Featured</li>
-                    <li className="menu-item" >Contact</li>
-                    <li className="menu-item" ></li>
-                </ul>
+                <div className="menu-list" >
+                    <Link to="Tickets" ><p className="menu-item" >Tickets</p></Link>
+                    <Link to="Membership" ><p className="menu-item" >Membership</p></Link>
+                    <Link to="Donation" ><p className="menu-item" >Make a donation</p></Link>
+                    <Link to="Contact" ><p className="menu-item" >Contact</p></Link>
+                </div>
             </div>
         </div> 
     )

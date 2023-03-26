@@ -1,7 +1,11 @@
-
+import Header from "./Header";
+import Gallery from "./Gallery";
+import Footer from "./Footer";
 
 function Home() {
   return (
+    <>
+    <Header />
     <div className="home-body-div">
       <h4 className="home-body-text">
         Welcome to the Nútímasafn, where we offer a fascinating
@@ -42,7 +46,12 @@ function Home() {
       </div>
 
       <div className="line-div"></div>
+
+      <Gallery />
+      <Footer />
+      
     </div>
+    </>
   );
 }
 

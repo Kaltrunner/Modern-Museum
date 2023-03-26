@@ -10,7 +10,7 @@ function Footer() {
         <ul>
           <p className="footer-text">Tickets</p>
           <p className="footer-text">Membership</p>
-          <p className="footer-text">Featured</p>
+          <p className="footer-text">Make a donation</p>
           <p className="footer-text">Contact</p>
         </ul>
       </div>
