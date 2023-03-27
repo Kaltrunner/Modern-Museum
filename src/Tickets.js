@@ -1,10 +1,10 @@
-import Header from "./Header";
+import ComponentNav from "./ComponentNav";
 import Footer from "./Footer";
 
 function Tickets() {
     return (
         <>
-        <Header />
+        <ComponentNav />
         <div className="nav-links-body-div" >
             <h1>Buy tickets</h1>
 

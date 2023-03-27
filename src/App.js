@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./Header";
+import ComponentNav from "./ComponentNav";
 import Home from "./Home";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
@@ -15,6 +16,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Header" element={<Header />} />
+      <Route path="/ComponentNav" element={<ComponentNav />} />
       <Route path="/Gallery" element={<Gallery />} />
       <Route path="/Footer" element={<Footer />} />
       <Route path="/Tickets" element={<Tickets />} />

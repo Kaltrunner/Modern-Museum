@@ -1,10 +1,10 @@
-import Header from "./Header";
+import ComponentNav from "./ComponentNav";
 import Footer from "./Footer";
 
 function Contact() {
     return (
         <>
-        <Header />
+        <ComponentNav />
         <div className="nav-links-body-div" >
             <h1>Contact us</h1>
 

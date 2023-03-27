@@ -1,10 +1,10 @@
-import Header from "./Header";
+import ComponentNav from "./ComponentNav";
 import Footer from "./Footer";
 
 function Membership() {
     return (
         <>
-        <Header />
+        <ComponentNav />
         <div className="nav-links-body-div" >
             <h1>Become a member</h1>
 

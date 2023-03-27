@@ -58,6 +58,14 @@ body {
   border-bottom: 2px solid #121c26;
 }
 
+
+/* ComponentNav Styles */
+
+#on {
+  border-bottom: 2px solid pink;
+}
+
+
 /* Home Styles */
 
 .home-body-div {
@@ -67,9 +75,8 @@ body {
 .home-body-text {
   font-size: 2vw;
   font-weight: 300;
-  line-height: 48px;
+  line-height: 4vh;
   width: 65%;
-  /* padding: 2rem 0; */
   margin: 2vw;
 }
 
@@ -164,23 +171,41 @@ body {
 /* Footer Styles */
 
 .footer-body-div {
-  height: 12rem;
+  height: 32vh;
   margin: 5rem;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.footer-logo-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#footer-logo-link {
+  text-decoration: none;
 }
 
 .footer-logo {
-  font-size: 28px;
-  margin-right: 6rem;
+  font-size: 3vw;
+  padding: 0;
+  color: #101820;
+  border-bottom: 2px solid #fdf7e6;
+  text-decoration: underline #fdf7e6;
+}
+
+.footer-logo:hover {
+  color: pink;
+  border-bottom: 2px solid #101820;
 }
 
 .footer-text {
-  font-size: 22px;
+  font-size: 1.45vw;
   font-weight: 300;
-  line-height: 24px;
+  line-height: 2.5vh;
   padding: 0;
-  /* margin-right: 6rem; */
   text-decoration: underline;
   color: #101820;
 }
@@ -196,6 +221,9 @@ body {
   color: pink;
 }
 
+#cc {
+  font-size: .85vw;
+}
 
 /* extra Styles */
 
@@ -211,4 +239,18 @@ body {
 .nav-links-body-div {
   margin-top: 8rem;
   margin-left: 4rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .gallery-body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery-img {
+    /* width: 50vw;
+    height: 50vh;
+    padding: 0;
+    margin: 0; */
+  }
 }
