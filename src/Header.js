@@ -10,7 +10,7 @@ function Header() {
       document.body.scrollTop > 400 ||
       document.documentElement.scrollTop > 400
     ) {
-      document.getElementById("navbar").style.top = "-130px";
+      document.getElementById("navbar").style.top = "-150px";
     } else {
       document.getElementById("navbar").style.top = "0";
     }
