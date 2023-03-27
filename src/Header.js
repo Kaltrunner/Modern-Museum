@@ -7,7 +7,7 @@ function Header() {
 
 function scrollFunction() {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-    document.getElementById("navbar").style.top = "-115px";
+    document.getElementById("navbar").style.top = "-130px";
   } else {
     document.getElementById("navbar").style.top = "0";
   }
