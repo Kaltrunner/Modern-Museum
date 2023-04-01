@@ -7,8 +7,8 @@ body {
 }
 
 ::selection {
-  color: pink;
-  background-color: #121c26;
+  color: #e9b114;
+  background-color: #101820;
 }
 
 
@@ -36,7 +36,7 @@ body {
 }
 
 .header-title:hover {
-  color: pink;
+  color: #e9b114;
   border-bottom: 2px solid #101820;
 }
 
@@ -49,20 +49,20 @@ body {
   font-weight: 300;
   display: inline-block;
   margin: 0 1rem;
-  border-bottom: 2px solid #fdf7e6;
+  /* border-bottom: 2px solid #fdf7e6; */
   color: #101820;
 }
 .menu-item:hover {
   cursor: pointer;
-  color: pink;
-  border-bottom: 2px solid #121c26;
+  color: #e9b114;
+  /* border-bottom: 2px solid #101820; */
 }
 
 
 /* ComponentNav Styles */
 
 #on {
-  border-bottom: 2px solid pink;
+  border-bottom: 2px solid #e9b114;
 }
 
 
@@ -189,40 +189,58 @@ body {
 }
 
 .footer-logo {
-  font-size: 3vw;
+  font-size: 3.5vw;
   padding: 0;
+  margin: 2vh 0;
   color: #101820;
   border-bottom: 2px solid #fdf7e6;
   text-decoration: underline #fdf7e6;
 }
 
 .footer-logo:hover {
-  color: pink;
+  color: #e9b114;
   border-bottom: 2px solid #101820;
 }
 
 .footer-text {
-  font-size: 1.45vw;
+  font-size: 1.75vw;
   font-weight: 300;
   line-height: 2.5vh;
   padding: 0;
-  text-decoration: underline;
+  text-decoration: none;
   color: #101820;
 }
 
 .footer-text:hover {
   cursor: pointer;
-  color: pink;
+  color: #e9b114;
 }
 .tag {
  color: #101820;
 }
 .tag:hover {
-  color: pink;
+  color: #e9b114;
 }
 
 #cc {
-  font-size: .85vw;
+  font-size: .95vw;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links {
+  color: #101820;
+  text-decoration: none;
+}
+
+#portfolio-link {
+  color: #e9b114;
+  text-decoration: none;
+  border-bottom: 1px solid #fdf7e6;
+}
+
+#portfolio-link:hover {
+  border-bottom: 1px solid #101820;
 }
 
 /* extra Styles */
@@ -230,7 +248,7 @@ body {
 .line-div {
   width: 95%;
   height: 1px;
-  background-color: #121c26;
+  background-color: #101820;
   margin: 0 auto;
 }
 
@@ -247,10 +265,5 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .gallery-img {
-    /* width: 50vw;
-    height: 50vh;
-    padding: 0;
-    margin: 0; */
-  }
+
 }
