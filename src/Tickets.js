@@ -80,7 +80,7 @@ function Tickets() {
       </div>
 
       <div>
-        <div className="ticket-line-div"></div>
+        <div className="line-div"></div>
         <div className="ticket-buy-div">
           <div className="add-to-cart">
             <div className="cart-text-div">

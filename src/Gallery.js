@@ -34,7 +34,7 @@ function Gallery() {
         <img
           className="galery-img"
           id="lrg-img"
-          src="https://images.unsplash.com/photo-1488952619802-0a3f502bab33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1369&q=80"
+          src="https://images.unsplash.com/photo-1581708794629-8174e37783bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
           alt=""
         />
         <img
@@ -45,7 +45,7 @@ function Gallery() {
         <img
           className="galery-img"
           id="small-img"
-          src="https://images.unsplash.com/photo-1563674881-8abcee2b556a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+          src="https://images.unsplash.com/photo-1593607358685-2aa8e6b48512?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1341&q=80"
           alt=""
         />
         <img
@@ -100,7 +100,7 @@ function Gallery() {
         />
         <img
           className="galery-img"
-          src="https://images.unsplash.com/photo-1554907984-15263bfd63bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+          src="https://images.unsplash.com/photo-1543746379-7f4f6228a6da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
           alt=""
         />
       </div>

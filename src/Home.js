@@ -23,12 +23,12 @@ function Home() {
         <div className="home-img-links-grid" >
 
           <div className="img-link">
-            <img src="https://images.unsplash.com/photo-1541665234574-8e72eb7cd028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+            <img src="https://images.unsplash.com/photo-1613908416516-299dc079542a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
             <h4 id="p" >Events</h4>
           </div>
 
           <div className="img-link"  >
-            <img src="https://images.unsplash.com/photo-1583306346437-f2143c0f11fc?ixlib=rb-4.0.3&ixid=Mnwhttps://images.unsplash.com/photo-1629295390892-32f92c8c55d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTg2fHxtdXNldW0lMjBzaG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60xMjA3fDB8MHxzZWFyY2h8MTR8fG11c2V1bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+            <img src="https://images.unsplash.com/photo-1578163678052-eef169544f75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
             <h4 id="p" >Exhibits</h4>
           </div>
 

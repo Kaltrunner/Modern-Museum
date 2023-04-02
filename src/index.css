@@ -113,7 +113,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: brightness(60%);
+  filter: brightness(90%);
   transition: transform .5s, filter .5s ease-in-out;
   transform-origin: center center;
 }
@@ -494,8 +494,123 @@ body {
   height: 100%;
 }
 
+.middle-body-div {
+  margin: 0vh 6vw;
+}
+
+.memeber-card-margin {
+  font-size: 1vw;
+  margin: 0;
+}
+
+.top-half-head {
+  font-size: 1.75vw;
+  font-weight: 400;
+  margin: 0vh 1vw;
+}
+
+.top-info {
+  margin-top: 10vh;
+  margin-left: 1vw;
+}
+
+.top-text {
+  font-weight: 300;
+}
+
+.top-half-cost {
+  font-size: 1.25vw;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  margin-left: 1vw;
+}
+
+.middle-body-head {
+  font-size: 3vw;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.middle-body-text {
+  font-size: 1.75vw;
+  font-weight: 400;
+  margin: 2vh 0;
+}
+
+#middle-span {
+  color: #e9b114;
+}
+
 .memeber-body {
-  /* margin: 4vw; */
+  margin: 0 4vw;
+  margin-bottom: 4vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1fr);
+  grid-column-gap: 0vw;
+  grid-row-gap: 0px;
+}
+
+.member-plan-div {
+  background: #101820;
+  height: 80vh;
+  margin: 2vw;
+  border-radius: 4px;
+  box-shadow: 0 40px 90px -5px #b6b3a5;
+}
+
+.top-half {
+  height: 50%;
+  background: whitesmoke;
+}
+
+.bottom-half {
+  height: 50%;
+  background: rgb(211, 211, 211);
+  box-shadow: 0 40px 90px -5px #a19d89;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.member-text {
+  font-size: 1vw;
+  font-weight: 600;
+  line-height: 2vh;
+  width: 75%;
+  margin: 1vw;
+}
+#memeber-card-text {
+  font-size: 1vw;
+  margin: 1vh 1vw;
+}
+
+.last-past-div {
+  margin: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.includes-div {
+  width: 40%;
+  margin: 4vw;
+}
+
+.includes-img-div {
+  width: 40vw;
+  height: 30vw;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#includes-img {
+  width: 100%;
+  height: 100%;
 }
 
 
