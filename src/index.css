@@ -31,13 +31,16 @@ body {
   font-size: 3vw;
   margin: 2vw;
   color: #101820;
-  border-bottom: 2px solid #fdf7e6;
   text-decoration: underline #fdf7e6;
+}
+
+#nav-title:hover {
+  color: #101820;
+  cursor:auto;
 }
 
 .header-title:hover {
   color: #e9b114;
-  border-bottom: 2px solid #101820;
 }
 
 .header-menu-div {

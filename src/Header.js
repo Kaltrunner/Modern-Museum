@@ -19,7 +19,7 @@ function Header() {
   return (
     <div className="header-body-div" id="navbar">
       <Link to="/">
-        <h4 className="header-title">Nútímasafn</h4>
+        <h4 className="header-title" id="nav-title" >Nútímasafn</h4>
       </Link>
       <div className="header-menu-div">
         <div className="menu-list">
