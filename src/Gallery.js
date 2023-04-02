@@ -28,7 +28,7 @@ function Gallery() {
         <img
           className="galery-img"
           id="lrg-img"
-          src="https://images.unsplash.com/photo-1548618771-dfd3f73251b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+          src="https://images.unsplash.com/photo-1568901607559-e81acfb37452?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
           alt=""
         />
         <img

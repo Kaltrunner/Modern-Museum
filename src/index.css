@@ -152,21 +152,25 @@ body {
   background-size: cover;
   margin: .5vw;
   border-radius: 2px;
+  filter: grayscale(90%);
 }
 
 .galery-img img {
   width: 100%;
   height: 100%;
+  filter: grayscale(90%);
 }
 
 #lrg-img {
   max-width: 60vw;
   height: 60vh;
+  filter: grayscale(90%);
 }
 
 #small-img {
   max-width: 25vw;
   height: 25vh;
+  filter: grayscale(90%);
 }
 
 
@@ -510,8 +514,10 @@ body {
 }
 
 .top-info {
-  margin-top: 10vh;
+  /* margin-top: 1vh;
   margin-left: 1vw;
+  margin-right: 1vw; */
+  margin: 0 1vw;
 }
 
 .top-text {
@@ -546,11 +552,13 @@ body {
 .memeber-body {
   margin: 0 4vw;
   margin-bottom: 4vw;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1fr);
-  grid-column-gap: 0vw;
-  grid-row-gap: 0px;
+  grid-column-gap: 0vw; */
+  /* grid-row-gap: 0px; */
 }
 
 .member-plan-div {
@@ -562,12 +570,12 @@ body {
 }
 
 .top-half {
-  height: 50%;
+  height: 40vh;
   background: whitesmoke;
 }
 
 .bottom-half {
-  height: 50%;
+  height: 40vh;
   background: rgb(211, 211, 211);
   box-shadow: 0 40px 90px -5px #a19d89;
   display: flex;
@@ -581,6 +589,7 @@ body {
   line-height: 2vh;
   width: 75%;
   margin: 1vw;
+  /* margin-top: 3vh; */
 }
 #memeber-card-text {
   font-size: 1vw;
@@ -606,12 +615,144 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  filter: grayscale(100%)
 }
 
 #includes-img {
   width: 100%;
   height: 100%;
 }
+
+.questions-div {
+  margin: 4vw;
+ display: flex;
+ flex-direction: column;
+}
+
+.questions-text-div {
+  display: flex;
+  justify-content: center;
+}
+
+.questions-text {
+  width: 33%;
+  margin: 0 2vw;
+}
+
+#questions-header-text {
+  font-size: 2vw;
+  padding: 0;
+  margin: 0 1.75vw;
+  margin-bottom: 2vw;
+}
+
+#questions-text-thick {
+  font-weight: 500;
+}
+
+#questions-text-thin {
+  font-weight: 300;
+}
+
+
+/* Donate Styles */
+
+.donation-header-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4vw;
+}
+
+.donation-header-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#donation-sub-text {
+  font-size: 1.5vw;
+  margin: 2vw 0;
+}
+
+.donate-img-div {
+  width: 40vw;
+  height: 56vw;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(100%)
+}
+
+#donationheader-img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  margin-right: 6vw;
+  cursor: pointer;
+  font-size: 1.25vw;
+  font-weight: 300;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3vw;
+  width: 5vw;
+  background-color: #fdf7e6;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #101820;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #fbefce;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #101820;
+  border: 1px solid #101820;
+  color: #fdf7e6;
+}
+
+/* .checkmark:before {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+} */
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* .container .checkmark:after {
+  top: 9px;
+ left: 9px;
+ width: 8px;
+ height: 8px;
+ border-radius: 50%;
+ background: white;
+} */
 
 
 /* extra Styles */

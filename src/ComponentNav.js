@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { ScrollToTop } from "react-router-scroll-to-top";
 
 
 function ComponentNav() {
@@ -25,6 +26,7 @@ function ComponentNav() {
   }, []);
 
   return (
+    <>
     <div className="header-body-div" id="navbar">
       <Link to="/">
         <h4 className="header-title">Nútímasafn</h4>
@@ -66,6 +68,8 @@ function ComponentNav() {
         </div>
       </div>
     </div>
+     <ScrollToTop />
+     </>
   );
 }
 

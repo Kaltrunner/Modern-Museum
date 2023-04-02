@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Header() {
   window.onscroll = function () {
@@ -17,6 +18,7 @@ function Header() {
   }
 
   return (
+    <>
     <div className="header-body-div" id="navbar">
       <Link to="/">
         <h4 className="header-title" id="nav-title" >Nútímasafn</h4>
@@ -38,6 +40,8 @@ function Header() {
         </div>
       </div>
     </div>
+    <ScrollToTop />
+    </>
   );
 }
 
