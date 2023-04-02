@@ -243,6 +243,259 @@ body {
   border-bottom: 1px solid #101820;
 }
 
+/* General Comp Styles */
+
+.p-text {
+  font-size: .85vw;
+  line-height: 1.75vh;
+}
+
+#ticket-p {
+  font-weight: 600;
+}
+
+#ticket-p-thin {
+  font-weight: 300;
+}
+
+
+/* Tickets Styles */
+
+.ticket-line-div {
+  width: 100%;
+  height: 1px;
+  background-color: #101820;
+  margin: 0 auto;
+}
+
+.comp-header-text {
+  font-size: 5vw;
+}
+
+.comp-sub-header {
+  font-size: 2vw;
+  font-weight: 300;
+  margin: 2vh 0;
+}
+
+.ticket-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket-info {
+  width: 50%;
+}
+
+.ticket-prices {
+  width: 30%;
+  margin: 0 4vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.join-today-div {
+  border-radius: 4px;
+  height: 9vh;
+  background: #e9b114;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2vw;
+  margin-bottom: 6vh;
+}
+
+#join-btn {
+  border: 2px solid #101820;
+  background: #fdf7e6;
+  width: 8vw;
+  height: 4vh;
+  margin: 0 auto;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all .25s ease-in-out;
+}
+
+#join-btn:hover {
+  background: #101820;
+  color: #e9b114;
+  transition: all .25s ease-in-out;
+}
+
+.purchase-btn-div {
+  display: flex;
+  justify-content: center;
+}
+
+#purchase-btn {
+  border: 2px solid #e9b114;
+  background: #e9b114;
+  width: 80%;
+  height: 4vh;
+  /* margin: 0 auto; */
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all .25s ease-in-out;
+}
+
+#purchase-btn:hover {
+  background: #101820;
+  border: 2px solid #101820;
+  color: #e9b114;
+  /* transition: all .25s ease-in-out; */
+}
+
+.add-to-cart {
+  width: 30%;
+  height: 14vh;
+  background: #fdf7e6;
+  border-radius: 4px;
+  /* position: fixed; */
+  box-shadow: 0 40px 90px -5px #b9b5a4;
+}
+
+.cart-text-div {
+  margin: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-text-btn {
+  font-size: .85vw;
+  padding: 0;
+  margin: 0;
+}
+
+.ticket-buy-div {
+  margin: 4vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.choose-ticket {
+  width: 52.5%;
+}
+
+#ticket-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visitor-rules {
+  margin-top: 4vw;
+}
+
+.ticket-btn {
+  width: 2.15vw;
+  height: 3.15vh;
+  font-size: 1.75vw;
+  font-weight: 200;
+  border: 2px solid #101820;
+  margin-left: .5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fdf7e6;
+  border-radius: 2px;
+  transition: all .25s ease-in-out;
+}
+
+.ticket-btn:hover {
+  cursor: pointer;
+  background: #101820;
+  color:#fdf7e6;
+  transition: all .25s ease-in-out;
+}
+
+.sub-ticket-btn {
+  width: 2.15vw;
+  height: 3.15vh;
+  font-size: 1.75vw;
+  font-weight: 200;
+  border: 2px solid #101820;
+  margin-left: .5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fdf7e6;
+  border-radius: 2px;
+  transition: all .25s ease-in-out;
+}
+
+.sub-ticket-btn:hover {
+  cursor: not-allowed;
+}
+
+.ticket-btn:active {
+  background: #e9b114;
+  border: 2px solid #e9b114;
+}
+
+.ticket {
+  width: 2vw;
+  height: 3vh;
+  border: 1px solid #fdf7e6;
+  margin-left: .5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .25s ease-in-out;
+}
+
+.ticket:hover {
+  border: 1px solid #101820;
+  transition: all .25s ease-in-out;
+}
+
+.ticket-veiw-div {
+  display: flex;
+  align-items: center;
+}
+
+.ticket-values {
+  margin: 0 auto;
+}
+
+.disabled {
+  border: 2px solid #7b7d7e;
+  color: #7b7d7e;
+}
+
+
+/* Membership Styles */
+
+.member-landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 6vh;
+}
+
+.member-landing-text {
+  width: 40%;
+}
+
+.member-landing-img {
+  width: 40vw;
+  height: 56vw;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#memeber-img {
+  width: 100%;
+  height: 100%;
+}
+
+.memeber-body {
+  /* margin: 4vw; */
+}
+
+
 /* extra Styles */
 
 .line-div {
@@ -255,8 +508,12 @@ body {
 /* nav links Pages Styles */
 
 .nav-links-body-div {
-  margin-top: 12vw;
+  margin-top: 8vw;
   margin-left: 4rem;
+}
+
+#tickets {
+  margin-top: 14vw;
 }
 
 @media only screen and (max-width: 1100px) {
