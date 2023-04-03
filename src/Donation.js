@@ -238,6 +238,7 @@ function Donation() {
           <div className="payment-billing-div"></div>
           <div className="payment-payment-div"></div>
         </div>
+        <div className="line-div"></div>
       </div>
 
       <Footer />

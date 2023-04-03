@@ -1,9 +1,60 @@
 import { Link } from "react-router-dom";
-
+import { useState } from "react";
 import ComponentNav from "./ComponentNav";
 import Footer from "./Footer";
 
 function Tickets() {
+
+  const [ticketCountAdult, setTicketCountAdult] = useState(0);
+  const [ticketCountChild, setTicketCountChild] = useState(0);
+  const [ticketCount, setTicketCount] = useState(0);
+  const [ticketCountStudent, setTicketCountStudent] = useState(0);
+  const totalTicketCount = ticketCountAdult + ticketCountChild + ticketCountStudent + ticketCount;
+
+
+  const addTicketAdult = () => {
+    setTicketCountAdult((prevCount) => prevCount + 1);
+  };
+  const addTicketChild = () => {
+    setTicketCountChild((prevCount) => prevCount + 1);
+  };
+  const addTicketStudent = () => {
+    setTicketCountStudent((prevCount) => prevCount + 1);
+  };
+  const addTicket = () => {
+    setTicketCount((prevCount) => prevCount + 1);
+  };
+
+  const decrementTicketAdult = () => {
+    if (ticketCountAdult > 0) {
+      setTicketCountAdult((prevCount) => prevCount - 1);
+    }
+  };
+  const decrementTicketChild = () => {
+    if (ticketCountChild > 0) {
+      setTicketCountChild((prevCount) => prevCount - 1);
+    }
+  };
+  const decrementTicketStudent = () => {
+    if (ticketCountStudent > 0) {
+      setTicketCountStudent((prevCount) => prevCount - 1);
+    }
+  };
+  const decrementTicketSenior = () => {
+    if (ticketCount > 0) {
+      setTicketCount((prevCount) => prevCount - 1);
+    }
+  };
+
+  const decrementButtonClassesAdult =
+    ticketCountAdult === 0 ? "disabled" : "sub-ticket-btn";
+  const decrementButtonClassesChild =
+    ticketCountChild === 0 ? "disabled" : "sub-ticket-btn";
+  const decrementButtonClassesStudent =
+    ticketCountStudent === 0 ? "disabled" : "sub-ticket-btn";
+  const decrementButtonClasses =
+    ticketCount === 0 ? "disabled" : "sub-ticket-btn";
+
   return (
     <>
       <ComponentNav />
@@ -63,10 +114,6 @@ function Tickets() {
               children.
             </p>
             <div className="ticket-line-div"></div>
-            {/* <p className="p-text">
-              Free for Members, Patrons, and children under 12.
-            </p>
-            <div className="ticket-line-div"></div> */}
             <p className="p-text">
               To purchase general admission tickets in advance, call the museum
               to talk to a represenitive.
@@ -85,8 +132,9 @@ function Tickets() {
         <div className="ticket-buy-div">
           <div className="add-to-cart">
             <div className="cart-text-div">
-              <p className="p-text">Subtotal</p>
-              <p className="p-text">$0.00</p>
+              <p className="p-text">Number of tickets: {totalTicketCount}</p>
+              <p className="p-text">Subtotal ${}</p>
+              <p className="p-text">${}</p>
             </div>
             <div className="purchase-btn-div">
               <button id="purchase-btn">purchase</button>
@@ -107,15 +155,19 @@ function Tickets() {
                 </p>
                 <div className="ticket-veiw-div">
                   <p>$30.00</p>
-                  <button className="sub-ticket-btn disabled">
+                  <button onClick={decrementTicketAdult}
+                    className={decrementButtonClassesAdult}
+                    id="decrementButton">
                     {" "}
                     <p id="ticket-values">-</p>{" "}
                   </button>
                   <div className="ticket">
                     {" "}
-                    <p id="ticket-values">0</p>{" "}
+                    <p id="ticket-values">{ticketCountAdult}</p>{" "}
                   </div>
-                  <button className="ticket-btn">
+                  <button onClick={addTicketAdult}
+                    className="ticket-btn"
+                    id="addButton">
                     {" "}
                     <p id="ticket-values">+</p>{" "}
                   </button>
@@ -130,20 +182,25 @@ function Tickets() {
                 </p>
                 <div className="ticket-veiw-div">
                   <p>$5.00</p>
-                  <button className="sub-ticket-btn disabled">
+                  <button  onClick={decrementTicketChild}
+                    className={decrementButtonClassesChild}
+                    id="decrementButton">
                     {" "}
                     <p id="ticket-values">-</p>{" "}
                   </button>
                   <div className="ticket">
                     {" "}
-                    <p id="ticket-values">0</p>{" "}
+                    <p id="ticket-values">{ticketCountChild}</p>{" "}
                   </div>
-                  <button className="ticket-btn">
+                  <button onClick={addTicketChild}
+                    className="ticket-btn"
+                    id="addButton">
                     {" "}
                     <p id="ticket-values">+</p>{" "}
                   </button>
                 </div>
               </div>
+
               <div className="ticket-line-div"></div>
               <div id="ticket-row">
                 <p className="p-text" id="ticket-p">
@@ -153,20 +210,29 @@ function Tickets() {
                 </p>
                 <div className="ticket-veiw-div">
                   <p>$15.00</p>
-                  <button className="sub-ticket-btn disabled">
+                  <button
+                    onClick={decrementTicketStudent}
+                    className={decrementButtonClassesStudent}
+                    id="decrementButton"
+                  >
                     {" "}
                     <p id="ticket-values">-</p>{" "}
                   </button>
                   <div className="ticket">
                     {" "}
-                    <p id="ticket-values">0</p>{" "}
+                    <p id="ticket-values">{ticketCountStudent}</p>{" "}
                   </div>
-                  <button className="ticket-btn">
+                  <button
+                    onClick={addTicketStudent}
+                    className="ticket-btn"
+                    id="addButton"
+                  >
                     {" "}
                     <p id="ticket-values">+</p>{" "}
                   </button>
                 </div>
               </div>
+
               <div className="ticket-line-div"></div>
               <div id="ticket-row">
                 <p className="p-text" id="ticket-p">
@@ -177,17 +243,27 @@ function Tickets() {
 
                 <div className="ticket-veiw-div">
                   <p>$20.00</p>
-                  <button className="sub-ticket-btn disabled">
+                  <button
+                    onClick={decrementTicketSenior}
+                    className={decrementButtonClasses}
+                    id="decrementButton"
+                  >
                     {" "}
-                    <p id="ticket-values">-</p>{" "}
+                    <p className="ticket-values">-</p>{" "}
                   </button>
                   <div className="ticket">
                     {" "}
-                    <p id="ticket-values">0</p>{" "}
+                    <p className="ticket-values" id="ticketCount">
+                      {ticketCount}
+                    </p>{" "}
                   </div>
-                  <button className="ticket-btn">
+                  <button
+                    onClick={addTicket}
+                    className="ticket-btn"
+                    id="addButton"
+                  >
                     {" "}
-                    <p id="ticket-values">+</p>{" "}
+                    <p className="ticket-values">+</p>{" "}
                   </button>
                 </div>
               </div>

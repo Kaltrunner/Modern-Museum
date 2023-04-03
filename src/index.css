@@ -429,10 +429,7 @@ body {
   background: #fdf7e6;
   border-radius: 2px;
   transition: all .25s ease-in-out;
-}
-
-.sub-ticket-btn:hover {
-  cursor: not-allowed;
+  cursor: pointer;
 }
 
 .ticket-btn:active {
@@ -461,13 +458,24 @@ body {
   align-items: center;
 }
 
-.ticket-values {
+#ticket-values {
   margin: 0 auto;
 }
 
 .disabled {
+  width: 2.15vw;
+  height: 3.15vh;
+  font-size: 1.75vw;
+  font-weight: 200;
+  margin-left: .5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fdf7e6;
+  border-radius: 2px;
   border: 2px solid #7b7d7e;
   color: #7b7d7e;
+  cursor: not-allowed;
 }
 
 
