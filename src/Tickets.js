@@ -4,13 +4,12 @@ import ComponentNav from "./ComponentNav";
 import Footer from "./Footer";
 
 function Tickets() {
-
   const [ticketCountAdult, setTicketCountAdult] = useState(0);
   const [ticketCountChild, setTicketCountChild] = useState(0);
   const [ticketCount, setTicketCount] = useState(0);
   const [ticketCountStudent, setTicketCountStudent] = useState(0);
-  const totalTicketCount = ticketCountAdult + ticketCountChild + ticketCountStudent + ticketCount;
-
+  const totalTicketCount =
+    ticketCountAdult + ticketCountChild + ticketCountStudent + ticketCount;
 
   const addTicketAdult = () => {
     setTicketCountAdult((prevCount) => prevCount + 1);
@@ -59,36 +58,43 @@ function Tickets() {
     <>
       <ComponentNav />
       <div className="nav-links-body-div" id="tickets">
-        <h1 className="comp-header-text">Admission Tickets</h1>
+        <h1 className="comp-header-text">Plan your visit</h1>
         <div className="ticket-div">
+
+            
+          
           <div className="ticket-info">
-            <h6 className="comp-sub-header">
+            <div className="ticket-img-div" >
+            <img id="ticket-img" src="https://images.unsplash.com/photo-1618207773994-243f4bce78fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80" alt="" />
+            </div>
+            {/* <h6 className="comp-sub-header">
               New York State residents and NY, NJ, students:
-            </h6>
-            <p> — The amount you pay for tickets is up to you.</p>
+            </h6> */}
+            {/* <p> — The amount you pay for tickets is up to you.</p>
             <p className="p-text">
               — If you wish to pay less than the general admission ticket
               prices, you may purchase your ticket from The Nútímasafn with a
               valid ID. No advance reservations are required.
               <br />
-            </p>
+            </p> */}
 
-            <div className="ticket-line-div"></div>
+            {/* <div className="ticket-line-div"></div> */}
 
-            <p className="p-text">
+            {/* <p className="p-text">
               There are no additional costs for exhibitions. Your ticket
               provides same-day entry to Nútímasafn. Continue to purchase a
               ticket below if you do not already have a pass or voucher for
               admission to the Museum.
-            </p>
-            <p className="p-text">
+            </p> */}
+            {/* <p className="p-text">
               Members: Your card is your ticket, no reservations required. Once
               inside, present your card and proceed to the galleries.
-            </p>
-            <p className="p-text">
+            </p> */}
+            {/* <p className="p-text">
               Visiting in a group? For information about bringing an adult or
               student group or scheduling a group tour, see Group Visits.
-            </p>
+            </p> */}
+           
 
             <div className="join-today-div">
               <>
@@ -108,21 +114,23 @@ function Tickets() {
           </div>
 
           <div className="ticket-prices">
-            <h6 className="comp-sub-header">General Admission Tickets</h6>
-            <p className="p-text">
-              $30 for adults; $20 for seniors; $15 for students and $5 for
-              children.
+            <h6 className="comp-sub-header" id="sub-header-id">
+              General Admission Tickets
+            </h6>
+            <p className="p-text" id="ticket-prices">
+              <br />
+              <span id="bullet-span"> • </span>$30 adults
+              <br />
+              <span id="bullet-span"> • </span>$20 seniors
+              <br />
+              <span id="bullet-span"> • </span>$15 students
+              <br />
+              <span id="bullet-span"> • </span>$5 children
             </p>
-            <div className="ticket-line-div"></div>
-            <p className="p-text">
-              To purchase general admission tickets in advance, call the museum
-              to talk to a represenitive.
+            <p className="p-text" >
+              👋 Free addmision for NYC residents and students.{" "}
             </p>
-            <div className="ticket-line-div"></div>
-            <p className="p-text">
-              Admission is free for a caregiver accompanying a visitor with a
-              disability.
-            </p>
+            {/* <p className="p-text" >👋 For group visits or tours, see "Group Visits."</p> */}
           </div>
         </div>
       </div>
@@ -137,12 +145,12 @@ function Tickets() {
               <p className="p-text">${}</p>
             </div>
             <div className="purchase-btn-div">
-              <button id="purchase-btn">purchase</button>
+              <button id="purchase-btn">PURCHASE</button>
             </div>
           </div>
 
           <div className="choose-ticket">
-            <h6 className="comp-sub-header">Choose Tickets</h6>
+            <h6 className="comp-sub-header" id="id-choose-tickets" >Choose Tickets</h6>
             <p className="p-text">
               Choose the number of & type of tickets that you need, then
               navigate to the purchase section to checkout.
@@ -155,9 +163,11 @@ function Tickets() {
                 </p>
                 <div className="ticket-veiw-div">
                   <p>$30.00</p>
-                  <button onClick={decrementTicketAdult}
+                  <button
+                    onClick={decrementTicketAdult}
                     className={decrementButtonClassesAdult}
-                    id="decrementButton">
+                    id="decrementButton"
+                  >
                     {" "}
                     <p id="ticket-values">-</p>{" "}
                   </button>
@@ -165,9 +175,11 @@ function Tickets() {
                     {" "}
                     <p id="ticket-values">{ticketCountAdult}</p>{" "}
                   </div>
-                  <button onClick={addTicketAdult}
+                  <button
+                    onClick={addTicketAdult}
                     className="ticket-btn"
-                    id="addButton">
+                    id="addButton"
+                  >
                     {" "}
                     <p id="ticket-values">+</p>{" "}
                   </button>
@@ -182,9 +194,11 @@ function Tickets() {
                 </p>
                 <div className="ticket-veiw-div">
                   <p>$5.00</p>
-                  <button  onClick={decrementTicketChild}
+                  <button
+                    onClick={decrementTicketChild}
                     className={decrementButtonClassesChild}
-                    id="decrementButton">
+                    id="decrementButton"
+                  >
                     {" "}
                     <p id="ticket-values">-</p>{" "}
                   </button>
@@ -192,9 +206,11 @@ function Tickets() {
                     {" "}
                     <p id="ticket-values">{ticketCountChild}</p>{" "}
                   </div>
-                  <button onClick={addTicketChild}
+                  <button
+                    onClick={addTicketChild}
                     className="ticket-btn"
-                    id="addButton">
+                    id="addButton"
+                  >
                     {" "}
                     <p id="ticket-values">+</p>{" "}
                   </button>

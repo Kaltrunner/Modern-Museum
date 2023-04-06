@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Header from "./Header";
 import Gallery from "./Gallery";
 import Footer from "./Footer";
@@ -22,10 +23,10 @@ function Home() {
 
         <div className="home-img-links-grid" >
 
-          <div className="img-link">
+          <Link id="home-links"  to="/Events" ><div className="img-link">
             <img src="https://images.unsplash.com/photo-1613908416516-299dc079542a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
             <h4 id="p" >Events</h4>
-          </div>
+          </div></Link>
 
           <div className="img-link"  >
             <img src="https://images.unsplash.com/photo-1578163678052-eef169544f75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />

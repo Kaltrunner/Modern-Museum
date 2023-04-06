@@ -8,7 +8,10 @@ import Tickets from "./Tickets";
 import Membership from "./Membership";
 import Donation from "./Donation";
 import Contact from "./Contact";
+import ExploreNav from "./ExploreNav";
+import Events from "./Events";
 import "./index.css";
+
 
 function App() {
   return (
@@ -23,6 +26,8 @@ function App() {
       <Route path="/Membership" element={<Membership />} />
       <Route path="/Donation" element={<Donation />} />
       <Route path="/Contact" element={<Contact />} />
+      <Route path="/ExploreNav" element={<ExploreNav />} />
+      <Route path="/Events" element={<Events />} />
     </Routes>
     // </div>
   );
