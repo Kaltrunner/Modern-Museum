@@ -22,7 +22,7 @@ function Donation() {
               We now accept cryptocurrency donations through BitPay. If you wish
               to make a donation with cryptocurrency, you can do so here.
             </p>
-            <h6 id="donation-sub-text">Suggested Donation Levels</h6>
+            <h6 className="donation-sub-text">Suggested Donation Levels</h6>
             <div className="donation-amounts">
               <label className="container">
                 <input type="radio" name="radio" />
@@ -65,172 +65,192 @@ function Donation() {
         <div className="line-div"></div>
         <div className="payment-body-div">
           <div className="payment-doner-div">
-            <h6 id="donation-sub-text">Donor</h6>
-            <form>
-              {/* <form> */}
+            <div className="form-div">
+              <h6 id="donation-sub-text">Donor</h6>
+
+              <form>
                 <input
                   className="input-text"
                   type="text"
                   placeholder="Email Address"
                 ></input>
-              {/* </form> */}
+                <br />
 
-              <input
-                className="input-text"
-                type="text"
-                placeholder="First name"
-                required
-              ></input>
-              <br />
-            
-              <input
-                className="input-text"
-                type="text"
-                placeholder="Last name"
-                required
-              ></input>
-              <br />
-            </form>
+                <input
+                  className="input-text"
+                  type="text"
+                  placeholder="First name"
+                  required
+                ></input>
+                <br />
 
-            <form>
-              <input
-                className="input-text"
-                type="text"
-                placeholder="Phone NUmber"
-              ></input>
-              <br />
-            </form>
+                <input
+                  className="input-text"
+                  type="text"
+                  placeholder="Last name"
+                  required
+                ></input>
+                <br />
 
-            <form>
-              <textarea
-                className="form-text-area"
-                placeholder="Donation Note"
-              />
-            </form>
+                <input
+                  className="input-text"
+                  type="text"
+                  placeholder="Phone NUmber"
+                ></input>
+                <br />
 
-            <h6 id="donation-sub-text">Billing</h6>
-            <form>
+                <textarea
+                  className="form-text-area"
+                  placeholder="Donation Note"
+                />
+              </form>
+            </div>
+
+            <div className="form-div">
+              <h6 id="donation-sub-text">Billing</h6>
+
               <form>
                 <input
                   className="input-text"
                   type="text"
                   placeholder="Street Address"
                 ></input>
-              </form>
+                <br />
 
-              <form>
                 <input
                   className="input-text"
                   type="text"
                   placeholder="Street Address-optional"
                 ></input>
+                <br />
+
+                <input
+                  className="input-text"
+                  type="text"
+                  placeholder="City"
+                  required
+                ></input>
+                <br />
+
+              
+                  <select className="input-text" id="drop-down-text">
+                    <option value="Selection">Country</option>
+                    <option value="Selection1">erfrf</option>
+                    <option value="Selection2">efrrfref</option>
+                    <option value="Selection3">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                  </select>
+
+                  <select className="input-text" id="drop-down-text">
+                    <option value="Selection">State</option>
+                    <option value="Selection1">erfrf</option>
+                    <option value="Selection2">efrrfref</option>
+                    <option value="Selection3">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                    <option value="Selection1">erfrf</option>
+                    <option value="Selection2">efrrfref</option>
+                    <option value="Selection3">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                    <option value="Selection1">erfrf</option>
+                    <option value="Selection2">efrrfref</option>
+                    <option value="Selection3">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                    <option value="Selection1">erfrf</option>
+                    <option value="Selection2">efrrfref</option>
+                    <option value="Selection3">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                    <option value="Selection1">erfrf</option>
+                    <option value="Selection2">efrrfref</option>
+                    <option value="Selection3">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                    <option value="Selection4">erferfr</option>
+                  </select>
+                  <br />
+               
+
+                <input
+                  className="input-text"
+                  type="text"
+                  placeholder="Postal Code"
+                  required
+                ></input>
               </form>
+            </div>
 
-              <input
-                className="input-text"
-                type="text"
-                placeholder="City"
-                required
-              ></input>
-              <br />
-
-              <form>
-                <select className="input-text">
-                  <option value="Selection">Country</option>
-                  <option value="Selection1">erfrf</option>
-                  <option value="Selection2">efrrfref</option>
-                  <option value="Selection3">erferfr</option>
-                  <option value="Selection4">erferfr</option>
-                </select>
-              </form>
-
-              <form>
-                <select className="input-text">
-                  <option value="Selection">State</option>
-                  <option value="Selection1">erfrf</option>
-                  <option value="Selection2">efrrfref</option>
-                  <option value="Selection3">erferfr</option>
-                  <option value="Selection4">erferfr</option>
-                </select>
-              </form>
-
-              <input
-                className="input-text"
-                type="text"
-                placeholder="Postal Code"
-                required
-              ></input>
-              <br />
-            </form>
-
-            <h6 id="donation-sub-text">Payment</h6>
-            <form>
+            <div className="form-div">
+              <h6 id="donation-sub-text">Payment</h6>
               <form>
                 <input
                   className="input-text"
                   type="text"
                   placeholder="Name on Card"
                 ></input>
+                <br />
+
+                <input
+                  className="input-text"
+                  type="text"
+                  placeholder="Card Number"
+                  required
+                ></input>
+                <br />
+
+               
+                  <select className="input-text" id="drop-down-text">
+                    <option value="Selection">Select Month</option>
+                    <option value="Selection1">January</option>
+                    <option value="Selection2">February</option>
+                    <option value="Selection3">March</option>
+                    <option value="Selection4">April</option>
+                    <option value="Selection5">May</option>
+                    <option value="Selection6">June</option>
+                    <option value="Selection7">July</option>
+                    <option value="Selection8">August</option>
+                    <option value="Selection9">September</option>
+                    <option value="Selection10">October</option>
+                    <option value="Selection11">November</option>
+                    <option value="Selection12">December</option>
+                  </select>
+
+                  <select className="input-text" id="drop-down-text">
+                    <option value="Selection">Select Year</option>
+                    <option value="Selection1">2023</option>
+                    <option value="Selection2">2024</option>
+                    <option value="Selection3">2025</option>
+                    <option value="Selection4">2026</option>
+                    <option value="Selection5">2027</option>
+                    <option value="Selection6">2028</option>
+                    <option value="Selection7">2029</option>
+                    <option value="Selection8">2030</option>
+                    <option value="Selection9">2031</option>
+                    <option value="Selection10">2032</option>
+                    <option value="Selection11">2033</option>
+                    <option value="Selection12">2034</option>
+                  </select>
+                  <br />
+               
+
+                <input
+                  className="input-text"
+                  type="text"
+                  placeholder="CVC"
+                  required
+                ></input>
               </form>
 
-              <input
-                className="input-text"
-                type="text"
-                placeholder="Card Number"
-                required
-              ></input>
-              <br />
+              <button className="donate-btn">Donate</button>
+            </div>
 
-                  <form>
-              <select className="input-text">
-                <option value="Selection">Select Month</option>
-                <option value="Selection1">January</option>
-                <option value="Selection2">February</option>
-                <option value="Selection3">March</option>
-                <option value="Selection4">April</option>
-                <option value="Selection5">May</option>
-                <option value="Selection6">June</option>
-                <option value="Selection7">July</option>
-                <option value="Selection8">August</option>
-                <option value="Selection9">September</option>
-                <option value="Selection10">October</option>
-                <option value="Selection11">November</option>
-                <option value="Selection12">December</option>
-              </select>
-            </form>
-                <form>
-              <select className="input-text">
-                <option value="Selection">Select Year</option>
-                <option value="Selection1">2023</option>
-                <option value="Selection2">2024</option>
-                <option value="Selection3">2025</option>
-                <option value="Selection4">2026</option>
-                <option value="Selection5">2027</option>
-                <option value="Selection6">2028</option>
-                <option value="Selection7">2029</option>
-                <option value="Selection8">2030</option>
-                <option value="Selection9">2031</option>
-                <option value="Selection10">2032</option>
-                <option value="Selection11">2033</option>
-                <option value="Selection12">2034</option>
-              </select>
-            </form>
-
-              <input
-                className="input-text"
-                type="text"
-                placeholder="CVC"
-                required
-              ></input>
-              <br />
-            </form>
-
-            <button>Donate</button>
-            <p>
-              If you have any questions, contact us at development@metmuseum.org
-              or 212-650-2425 (Mon-Fri, 10am - 5pm EST).
+            <p className="contact-info-text">
+              If you have any questions, please contact us at
+              Nútímasafn@fakemuseum.com or 555-555-5555 (Mon-Fri, 10am - 5pm
+              EST).
             </p>
-            <p>
+            <p className="contact-info-text">
               Your contribution may be tax-deductible within the limits
               prescribed by the law.
             </p>
