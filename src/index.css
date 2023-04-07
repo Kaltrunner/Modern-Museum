@@ -409,7 +409,11 @@ body {
   #exhibit-img {
     width: 100%;
    height: 50vh;
-    /* filter: grayscale(.9); */
+  }
+
+  #coming-exhibit-img {
+    width: 100%;
+    height: 40vh;
   }
 
   #exhibit-text-div {
