@@ -40,7 +40,7 @@ function Footer() {
 
       <div>
         <Link className="footer-links" to="/Events" ><p className="footer-text">Events</p></Link>
-        <p className="footer-text">Exhibits</p>
+        <Link className="footer-links" to="/Exhibits" ><p className="footer-text">Exhibits</p></Link>
         <p className="footer-text">Café</p>
         <p className="footer-text">Shop</p>
       </div>

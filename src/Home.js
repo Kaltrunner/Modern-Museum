@@ -28,10 +28,10 @@ function Home() {
             <h4 id="p" >Events</h4>
           </div></Link>
 
-          <div className="img-link"  >
+          <Link id="home-links"  to="/Exhibits" ><div className="img-link"  >
             <img src="https://images.unsplash.com/photo-1578163678052-eef169544f75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
             <h4 id="p" >Exhibits</h4>
-          </div>
+          </div></Link>
 
           <div className="img-link">
             <img src="https://images.unsplash.com/photo-1511214053397-d6c97488c8f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
@@ -39,7 +39,7 @@ function Home() {
           </div>
 
           <div className="img-link">
-            <img src="https://images.unsplash.com/photo-1501168025369-84d106f7a5eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="" />
+            <img src="https://www.ringling.org/sites/default/files/Day-2-Pt-2_079.jpg" alt="" />
             <h4 id="p" >Shop</h4>
           </div>
 

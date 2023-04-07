@@ -10,6 +10,7 @@ import Donation from "./Donation";
 import Contact from "./Contact";
 import ExploreNav from "./ExploreNav";
 import Events from "./Events";
+import Exhibits from "./Exhibits";
 import "./index.css";
 
 
@@ -28,6 +29,7 @@ function App() {
       <Route path="/Contact" element={<Contact />} />
       <Route path="/ExploreNav" element={<ExploreNav />} />
       <Route path="/Events" element={<Events />} />
+      <Route path="/Exhibits" element={<Exhibits />} />
     </Routes>
     // </div>
   );

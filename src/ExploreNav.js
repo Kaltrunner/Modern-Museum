@@ -41,10 +41,10 @@ function ExploreNav() {
               Events
             </p>
           </Link>
-          <Link to="/Membership">
+          <Link to="/Exhibits">
             <p
               className="menu-item"
-              id={currentPage === "/Membership" ? "on" : ""}
+              id={currentPage === "/Exhibits" ? "on" : ""}
             >
               Exhibits
             </p>

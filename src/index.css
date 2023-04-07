@@ -264,6 +264,7 @@ body {
 }
 
 .comp-header-text {
+  width: 60%;
   margin-bottom: 10vh;
 }
 
@@ -275,16 +276,40 @@ body {
   grid-row-gap: 6vh;
   }
 
+  .event-grid-div  > * {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+
+  .event-grid-div-upcoming {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 3vw;
+  /* grid-template-columns: fit-content(40vw); */
+  }
+
+  .event-grid-div-upcoming  > * {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+
+  .events-div {
+    margin-bottom: 8vh;
+  }
+
   .event {
     width: 100%;
-    height: 60vh;
+    min-height: 60vh;
     border: 1px solid #101820;
     border-radius: 4px;
-    /* margin: 0 2vw; */
   }
 
   #event-img-div {
- /* height: 50%; */
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
@@ -328,6 +353,68 @@ body {
   #event-link {
     text-decoration: none;
     color: #101820;
+  }
+
+
+  /* Exhibits Styles */
+
+  .exhibits-body-div {
+    margin: 4vw;
+    margin-top: 22vh;
+  }
+
+  .exhibits-grid-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 6vh;
+  }
+
+  .exhibits-grid-div  > * {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+
+  .exhibits-coming-grid-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .exhibits-coming-grid-div  > * {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+
+  #exhibit-img-div {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+    #exhibit-coming-img-div {
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+  #exhibit-img {
+    width: 100%;
+   height: 50vh;
+    /* filter: grayscale(.9); */
+  }
+
+  #exhibit-text-div {
+    padding: 0;
+    margin: 2vw;
   }
 
 
