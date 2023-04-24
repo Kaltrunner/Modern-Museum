@@ -49,8 +49,7 @@ function Exhibits() {
               <div id="exhibit-text-div">
                 <h4>Atrifacts & treasure from the age Vikings</h4>
                 <h6>
-                  Beyond the Light: Identity and Place in Nineteenth-Century
-                  Danish Art
+                (description coming soon)
                 </h6>
                 <p>Through September</p>
               </div>
@@ -62,8 +61,7 @@ function Exhibits() {
               <div id="exhibit-text-div">
                 <h4>Traditional Arts of The Philippines</h4>
                 <h6>
-                  Beyond the Light: Identity and Place in Nineteenth-Century
-                  Danish Art
+                  (description coming soon)
                 </h6>
                 <p>Through October</p>
               </div>
@@ -82,8 +80,7 @@ function Exhibits() {
                 <div id="exhibit-text-div">
                   <h4>EXHIBITION</h4>
                   <h6>
-                    Beyond the Light: Identity and Place in Nineteenth-Century
-                    Danish Art
+                  coming soon
                   </h6>
                   <p>Coming in October</p>
                 </div>
@@ -100,8 +97,7 @@ function Exhibits() {
               <div id="exhibit-text-div">
                 <h4>EXHIBITION</h4>
                 <h6>
-                  Beyond the Light: Identity and Place in Nineteenth-Century
-                  Danish Art
+                coming soon
                 </h6>
                 <p>Coming in October</p>
               </div>
@@ -116,8 +112,7 @@ function Exhibits() {
                 <div id="exhibit-text-div">
                   <h4>EXHIBITION</h4>
                   <h6>
-                    Beyond the Light: Identity and Place in Nineteenth-Century
-                    Danish Art
+                  coming soon
                   </h6>
                   <p>Coming in October</p>
                 </div>
@@ -133,8 +128,7 @@ function Exhibits() {
                 <div id="exhibit-text-div">
                   <h4>EXHIBITION</h4>
                   <h6>
-                    Beyond the Light: Identity and Place in Nineteenth-Century
-                    Danish Art
+                  coming soon
                   </h6>
                   <p>Coming in Decimber</p>
                 </div>
@@ -166,8 +160,7 @@ function Exhibits() {
                 <div id="exhibit-text-div">
                   <h4>EXHIBITION</h4>
                   <h6>
-                    Beyond the Light: Identity and Place in Nineteenth-Century
-                    Danish Art
+                    coming soon
                   </h6>
                   <p>Coming in Decimber</p>
                 </div>

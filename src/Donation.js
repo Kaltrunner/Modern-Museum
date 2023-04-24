@@ -242,7 +242,7 @@ function Donation() {
                 ></input>
               </form>
 
-              <button className="donate-btn">Donate</button>
+              <button className="donate-btn"  id="purchase-btn">Donate</button>
             </div>
 
             <p className="contact-info-text">

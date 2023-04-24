@@ -55,7 +55,7 @@ function Membership() {
               <p className="top-text">
                 Within the limits prescribed by law, $44 is not tax-deductible
               </p>
-              <button className="join-btn-class" id="join-btn">
+              <button className="join-btn-class"  id="purchase-btn">
                 Join
               </button>
             </div>
@@ -87,7 +87,7 @@ function Membership() {
               <p className="top-text">
                 Within the limits prescribed by law, $104 is not tax-deductible
               </p>
-              <button className="join-btn-class" id="join-btn">
+              <button className="join-btn-class"  id="purchase-btn">
                 Join
               </button>
             </div>
@@ -126,7 +126,7 @@ function Membership() {
               <p className="top-text">
                 Within the limits prescribed by law, $254 is not tax-deductible
               </p>
-              <button className="join-btn-class" id="join-btn">
+              <button className="join-btn-class"  id="purchase-btn">
                 Join
               </button>
             </div>
@@ -153,15 +153,7 @@ function Membership() {
           </div>
         </div>
 
-        {/* <div className="member-plan-div">
-          <div className="top-half"></div>
-          <div className="bottom-half"></div>
-        </div> */}
-
-        {/* <div className="member-plan-div">
-          <div className="top-half"></div>
-          <div className="bottom-half"></div>
-        </div> */}
+        
       </div>
       <div className="line-div"></div>
       <div className="last-past-div">

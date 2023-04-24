@@ -11,6 +11,40 @@ function Tickets() {
   const totalTicketCount =
     ticketCountAdult + ticketCountChild + ticketCountStudent + ticketCount;
 
+  // const TicketCostCalculator = () => {
+  //   const [ticketCountAdult, setTicketCountAdult] = useState(0);
+  //   const [ticketCountChild, setTicketCountChild] = useState(0);
+  //   const [ticketCountStudent, setTicketCountStudent] = useState(0);
+  //   const [ticketCountSenior, setTicketCountSenior] = useState(0);
+  //   const [totalCost, setTotalCost] = useState(0.00);
+  // };
+
+  // const calculateTotalCost = () => {
+  //   const adultTicketCost = 30;
+  //   const childTicketCost = 5;
+  //   const studentTicketCost = 15;
+  //   const seniorTicketCost = 20;
+  //   const totalCost =
+  //     ticketCountAdult * adultTicketCost +
+  //     ticketCountChild * childTicketCost +
+  //     ticketCountStudent * studentTicketCost +
+  //     ticketCount * seniorTicketCost;
+  //   document.getElementById("total-ticket-cost").innerHTML = `${totalCost}`;
+  // };
+
+  // const calculateTotalCost = () => {
+  //   const adultTicketCost = 30;
+  //   const childTicketCost = 5;
+  //   const studentTicketCost = 15;
+  //   const seniorTicketCost = 20;
+  //   const calculatedTotalCost =
+  //     ticketCountAdult * adultTicketCost +
+  //     ticketCountChild * childTicketCost +
+  //     ticketCountStudent * studentTicketCost +
+  //     ticketCountSenior * seniorTicketCost;
+  //   setTotalCost(calculatedTotalCost);
+  // };
+
   const addTicketAdult = () => {
     setTicketCountAdult((prevCount) => prevCount + 1);
   };
@@ -60,89 +94,79 @@ function Tickets() {
       <div className="nav-links-body-div" id="tickets">
         <h1 className="comp-header-text">Plan your visit</h1>
         <div className="ticket-div">
-
-            
-          
           <div className="ticket-info">
-            <div className="ticket-img-div" >
-            <img id="ticket-img" src="https://images.unsplash.com/photo-1618207773994-243f4bce78fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80" alt="" />
-            </div>
-            {/* <h6 className="comp-sub-header">
-              New York State residents and NY, NJ, students:
-            </h6> */}
-            {/* <p> — The amount you pay for tickets is up to you.</p>
-            <p className="p-text">
-              — If you wish to pay less than the general admission ticket
-              prices, you may purchase your ticket from The Nútímasafn with a
-              valid ID. No advance reservations are required.
-              <br />
-            </p> */}
-
-            {/* <div className="ticket-line-div"></div> */}
-
-            {/* <p className="p-text">
-              There are no additional costs for exhibitions. Your ticket
-              provides same-day entry to Nútímasafn. Continue to purchase a
-              ticket below if you do not already have a pass or voucher for
-              admission to the Museum.
-            </p> */}
-            {/* <p className="p-text">
-              Members: Your card is your ticket, no reservations required. Once
-              inside, present your card and proceed to the galleries.
-            </p> */}
-            {/* <p className="p-text">
-              Visiting in a group? For information about bringing an adult or
-              student group or scheduling a group tour, see Group Visits.
-            </p> */}
-           
-
-            <div className="join-today-div">
-              <>
-                <p className="p-text" id="p-text-join">
-                  <span id="ticket-p">Become a Member</span>
-                  <br />
-                  Enjoy unlimited free admission for you and your guest(s) on
-                  every visit.
-                </p>
-              </>
-              <Link to="/Membership">
-                <button id="join-btn">
-                  <p className="p-text-btn">Join today</p>
-                </button>
-              </Link>
+            <div className="ticket-img-div">
+              <img
+                id="ticket-img"
+                src="https://images.unsplash.com/photo-1618207773994-243f4bce78fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80"
+                alt=""
+              />
             </div>
           </div>
 
           <div className="ticket-prices">
             <h6 className="comp-sub-header" id="sub-header-id">
-              General Admission Tickets
+              Become a Member
             </h6>
+
             <p className="p-text" id="ticket-prices">
+              Enjoy the fallowing:
               <br />
-              <span id="bullet-span"> • </span>$30 adults
+              <span id="bullet-span"> • </span>Unlimited access for 12 months
               <br />
-              <span id="bullet-span"> • </span>$20 seniors
+              <span id="bullet-span"> • </span>Exclusive access to special
+              events
               <br />
-              <span id="bullet-span"> • </span>$15 students
+              <span id="bullet-span"> • </span>Discounts on murchandice
               <br />
-              <span id="bullet-span"> • </span>$5 children
+              <span id="bullet-span"> • </span>Prioraty access when you arrive
+              <br />
             </p>
-            <p className="p-text" >
-              👋 Free addmision for NYC residents and students.{" "}
-            </p>
-            {/* <p className="p-text" >👋 For group visits or tours, see "Group Visits."</p> */}
+            <br />
+            <Link to="/Membership">
+              <button id="purchase-btn">
+                <p className="p-text-btn">JOIN TODAY</p>
+              </button>
+            </Link>
+
+            <br />
+            <br />
+            <div className="general-addmision-div">
+              <h6 className="comp-sub-header" id="sub-header-id">
+                General Admission
+              </h6>
+
+              <p className="p-text" id="ticket-prices">
+                <span id="bullet-span"> • </span>$30 adults
+                <br />
+                <span id="bullet-span"> • </span>$20 seniors
+                <br />
+                <span id="bullet-span"> • </span>$15 students
+                <br />
+                <span id="bullet-span"> • </span>$5 children
+              </p>
+              <p className="p-text">
+                👋 Free addmision for NYC residents and students.{" "}
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
+      <div className="line-div" id="thick-line-div"></div>
       <div>
-        <div className="line-div"></div>
         <div className="ticket-buy-div">
           <div className="add-to-cart">
             <div className="cart-text-div">
               <p className="p-text">Number of tickets: {totalTicketCount}</p>
-              <p className="p-text">Subtotal ${}</p>
-              <p className="p-text">${}</p>
+              <p id="total-ticket-cost" className="p-text">
+                Subtotal ${}0.00
+              </p>
+              {/* <p id="total-ticket-cost" className="p-text">
+                {}
+              </p> */}
+              {/* <p id="total-ticket-cost" className="p-text">
+                ${}
+              </p> */}
             </div>
             <div className="purchase-btn-div">
               <button id="purchase-btn">PURCHASE</button>
@@ -150,7 +174,9 @@ function Tickets() {
           </div>
 
           <div className="choose-ticket">
-            <h6 className="comp-sub-header" id="id-choose-tickets" >Choose Tickets</h6>
+            <h6 className="comp-sub-header" id="id-choose-tickets">
+              Choose Tickets
+            </h6>
             <p className="p-text">
               Choose the number of & type of tickets that you need, then
               navigate to the purchase section to checkout.
@@ -299,6 +325,7 @@ function Tickets() {
         </div>
       </div>
       <div className="line-div"></div>
+
       <Footer />
     </>
   );
