@@ -13,7 +13,7 @@ To get started with our website, simply clone this repository to your local mach
 
 bash
 Copy code
-git clone https://github.com/nutimasafn/nutimasafn-website.git
+git clone https://github.com/Kaltrunner/Modern-Museum.git
 Once you have cloned the repository, you can open the file in your browser to view the website by typing "npm start".
 
 Issues
