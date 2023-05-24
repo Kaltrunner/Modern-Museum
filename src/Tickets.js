@@ -139,11 +139,11 @@ function Tickets() {
               <p className="p-text" id="ticket-prices">
                 <span id="bullet-span"> • </span>$30 adults
                 <br />
-                <span id="bullet-span"> • </span>$20 seniors
+                <span id="bullet-span"> • </span>$5 children
                 <br />
                 <span id="bullet-span"> • </span>$15 students
                 <br />
-                <span id="bullet-span"> • </span>$5 children
+                <span id="bullet-span"> • </span>$20 seniors
               </p>
               <p className="p-text">
                 👋 Free addmision for NYC residents and students.{" "}

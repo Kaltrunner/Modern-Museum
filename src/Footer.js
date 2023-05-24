@@ -41,53 +41,9 @@ function Footer() {
       <div>
         <Link className="footer-links" to="/Events" ><p className="footer-text">Events</p></Link>
         <Link className="footer-links" to="/Exhibits" ><p className="footer-text">Exhibits</p></Link>
-        <p className="footer-text">Café</p>
-        <p className="footer-text">Shop</p>
+        <Link className="footer-links" to="/Cafe" ><p className="footer-text">Café</p></Link>
+        <Link className="footer-links" to="/Shop" ><p className="footer-text">Shop</p></Link>
       </div>
-
-      {/* <div className="">
-        <p className="footer-text">
-          <a
-            className="tag"
-            href="mailto:erikrussells@gmail.com?subject=Hello!"
-          >
-            erikrussells@gmail.com
-          </a>
-        </p>
-
-        <p className="footer-text">
-          <a
-            className="tag"
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.linkedin.com/in/erik-russell-software-engineer/"
-          >
-            LinkedIn
-          </a>
-        </p>
-
-        <p className="footer-text">
-          <a
-            className="tag"
-            target="_blank"
-            rel="noreferrer"
-            href="https://github.com/Kaltrunner"
-          >
-            GitHub
-          </a>
-        </p>
-
-        <p className="footer-text">
-          <a
-            className="tag"
-            target="_blank"
-            rel="noreferrer"
-            href="https://www.erikmrussell.com"
-          >
-            Portfolio
-          </a>
-        </p>
-      </div> */}
     </div>
   );
 }

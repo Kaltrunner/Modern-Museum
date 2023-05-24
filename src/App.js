@@ -11,6 +11,8 @@ import Contact from "./Contact";
 import ExploreNav from "./ExploreNav";
 import Events from "./Events";
 import Exhibits from "./Exhibits";
+import Shop from "./Shop";
+import Cafe from "./Cafe";
 import "./index.css";
 
 
@@ -30,6 +32,8 @@ function App() {
       <Route path="/ExploreNav" element={<ExploreNav />} />
       <Route path="/Events" element={<Events />} />
       <Route path="/Exhibits" element={<Exhibits />} />
+      <Route path="/Shop" element={<Shop />} />
+      <Route path="/Cafe" element={<Cafe />} />
     </Routes>
     // </div>
   );

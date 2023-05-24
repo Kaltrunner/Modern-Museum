@@ -1,11 +1,11 @@
-import ComponentNav from "./ComponentNav";
+import ExploreNav from "./ExploreNav";
 import Footer from "./Footer";
 
-function Contact() {
+function Cafe() {
     return (
         <>
-        <ComponentNav />
-        <div className="contact-body-div" >
+        <ExploreNav />
+        <div className="cafe-body-div" >
             <h1 className="text" >page coming soon, <br /> thank you for your patience.</h1>
         </div>
         <Footer />
@@ -13,4 +13,4 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default Cafe;

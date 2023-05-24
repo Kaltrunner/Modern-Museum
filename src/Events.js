@@ -26,8 +26,7 @@ function Events() {
               <div id="event-text-div">
                 <h4>Public Event</h4>
                 <h6>
-                  Conversations with ... Beyond the Light: Identity and Place in
-                  Nineteenth-Century Danish Ar
+                  
                 </h6>
                 <p>Free with Museum admission.</p>
               </div>
@@ -54,8 +53,7 @@ function Events() {
               <div id="event-text-div">
                 <h4>Public Event</h4>
                 <h6>
-                  Conversations with ... Beyond the Light: Identity and Place in
-                  Nineteenth-Century Danish Ar
+                 
                 </h6>
                 <p>Free with Museum admission.</p>
               </div>
@@ -82,8 +80,7 @@ function Events() {
               <div id="event-text-div">
                 <h4>Public Event</h4>
                 <h6>
-                  Conversations with ... Beyond the Light: Identity and Place in
-                  Nineteenth-Century Danish Ar
+                  
                 </h6>
                 <p>Free with Museum admission.</p>
               </div>
@@ -110,8 +107,7 @@ function Events() {
               <div id="event-text-div">
                 <h4>Public Event</h4>
                 <h6>
-                  Conversations with ... Beyond the Light: Identity and Place in
-                  Nineteenth-Century Danish Ar
+             
                 </h6>
                 <p>Free with Museum admission.</p>
               </div>
@@ -138,8 +134,7 @@ function Events() {
               <div id="event-text-div">
                 <h4>Public Event</h4>
                 <h6>
-                  Conversations with ... Beyond the Light: Identity and Place in
-                  Nineteenth-Century Danish Ar
+               
                 </h6>
                 <p>Free with Museum admission.</p>
               </div>
@@ -172,8 +167,7 @@ function Events() {
               <div id="event-text-div">
                 <h4>Public Event</h4>
                 <h6>
-                  Conversations with ... Beyond the Light: Identity and Place in
-                  Nineteenth-Century Danish Ar
+               
                 </h6>
                 <p>Free with Museum admission.</p>
               </div>
@@ -200,8 +194,7 @@ function Events() {
               <div id="event-text-div">
                 <h4>Public Event</h4>
                 <h6>
-                  Conversations with ... Beyond the Light: Identity and Place in
-                  Nineteenth-Century Danish Ar
+                
                 </h6>
                 <p>Free with Museum admission.</p>
               </div>
@@ -228,8 +221,7 @@ function Events() {
               <div id="event-text-div">
                 <h4>Public Event</h4>
                 <h6>
-                  Conversations with ... Beyond the Light: Identity and Place in
-                  Nineteenth-Century Danish Ar
+            
                 </h6>
                 <p>Free with Museum admission.</p>
               </div>

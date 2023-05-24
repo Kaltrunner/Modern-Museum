@@ -351,6 +351,11 @@ body {
     transition: all .25s ease-in-out;
   }
 
+  #purchase-btn:active {
+    background-color: #e9b114;
+    color: #e9b114;
+  }
+
   #event-link {
     text-decoration: none;
     color: #101820;
@@ -471,6 +476,34 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
     margin: 20vh 2vw;
+  }
+
+
+  /*  Shop Styles  */
+
+  .shop-body-div {
+    margin: 4vw;
+    margin-top: 20vh;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 400;
+  }
+
+
+  /*  Cafe Styles  */
+
+  .cafe-body-div {
+    margin: 4vw;
+    margin-top: 20vh;
+  }
+
+  .text {
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 400;
   }
 
 
@@ -771,6 +804,7 @@ body {
 .member-landing-img {
   width: 40vw;
   height: 56vw;
+  border-radius: 12px;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
@@ -856,7 +890,7 @@ body {
 .bottom-half {
   height: 40vh;
   background: rgb(211, 211, 211);
-  box-shadow: 0 40px 90px -5px #a19d89;
+  box-shadow: 0 5px 15px -20px #a19d89;
   display: flex;
   flex-direction: column;
 
@@ -899,6 +933,7 @@ body {
 #includes-img {
   width: 100%;
   height: 100%;
+  border-radius: 12px;
 }
 
 .questions-div {
@@ -958,18 +993,20 @@ body {
 }
 
 .donate-img-div {
+  filter: grayscale(100%);
   width: 40vw;
   height: 56vw;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: grayscale(100%)
+  margin: 0vh 4vw;
 }
 
 #donationheader-img {
   width: 100%;
   height: 100%;
+  border-radius: 12px;
 }
 
 .container {
@@ -993,6 +1030,7 @@ body {
   left: 0;
   height: 3vw;
   width: 5vw;
+  font-weight: 400;
   background-color: #fdf7e6;
   border-radius: 25px;
   display: flex;
@@ -1002,7 +1040,7 @@ body {
 }
 
 .container:hover input ~ .checkmark {
-  background-color: #fbefce;
+  background-color: #14e9b1;
 }
 
 .container input:checked ~ .checkmark {
@@ -1082,14 +1120,28 @@ body {
   transition: all .25s ease-in-out;
 }
 
-.donate-btn:hover {
+/* .donate-btn:hover {
   transition: all .25s ease-in-out;
   cursor: pointer;
-}
+} */
 
 .donate-btn:active {
-  background: #e9b114;
-  color: #101820;
+  background-color: #e9b114;
+  color: #e9b114;
+}
+
+
+/*  Contact Styles  */
+
+.contact-body-div {
+  margin: 4vw;
+  margin-top: 20vh;
+}
+
+.text {
+  text-align: center;
+  font-size: 8vw;
+  font-weight: 400;
 }
 
 
