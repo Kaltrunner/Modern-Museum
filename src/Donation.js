@@ -15,7 +15,7 @@ function Donation() {
               visitors to experience the power of art.
             </p>
             <p id="questions-text-thin">
-              Your donation today plays a vital role in The Met’s future, and we
+              Your donation today plays a vital role in Nútímasafn’s future, and we
               couldn’t be more grateful. Thank you.
             </p>
             <p id="questions-text-thin">

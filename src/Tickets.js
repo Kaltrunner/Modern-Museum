@@ -152,7 +152,7 @@ function Tickets() {
           </div>
         </div>
       </div>
-      <div className="line-div" id="thick-line-div"></div>
+      <div className="line-div" ></div>
       <div>
         <div className="ticket-buy-div">
           <div className="add-to-cart">
