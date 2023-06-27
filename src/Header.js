@@ -19,28 +19,30 @@ function Header() {
 
   return (
     <>
-    <div className="header-body-div" id="navbar">
-      <Link to="/">
-        <h4 className="header-title" id="nav-title" >Nútímasafn</h4>
-      </Link>
-      <div className="header-menu-div">
-        <div className="menu-list">
-          <Link to="/Tickets">
-            <p className="menu-item">Tickets</p>
-          </Link>
-          <Link to="/Membership">
-            <p className="menu-item">Membership</p>
-          </Link>
-          <Link to="/Donation">
-            <p className="menu-item">Make a donation</p>
-          </Link>
-          <Link to="/Contact">
-            <p className="menu-item">Contact</p>
-          </Link>
+      <div className="header-body-div" id="navbar">
+        <Link to="/">
+          <h4 className="header-title" id="nav-title">
+            Nútímasafn
+          </h4>
+        </Link>
+        <div className="header-menu-div">
+          <div className="menu-list">
+            <Link to="/Tickets">
+              <p className="menu-item">Tickets</p>
+            </Link>
+            <Link to="/Membership">
+              <p className="menu-item">Membership</p>
+            </Link>
+            <Link to="/Donation">
+              <p className="menu-item">Make a donation</p>
+            </Link>
+            <Link to="/Contact">
+              <p className="menu-item">Contact</p>
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
-    <ScrollToTop />
+      <ScrollToTop />
     </>
   );
 }

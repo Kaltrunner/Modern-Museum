@@ -15,8 +15,8 @@ function Donation() {
               visitors to experience the power of art.
             </p>
             <p id="questions-text-thin">
-              Your donation today plays a vital role in Nútímasafn’s future, and we
-              couldn’t be more grateful. Thank you.
+              Your donation today plays a vital role in Nútímasafn’s future, and
+              we couldn’t be more grateful. Thank you.
             </p>
             <p id="questions-text-thin">
               We now accept cryptocurrency donations through BitPay. If you wish
@@ -132,45 +132,43 @@ function Donation() {
                 ></input>
                 <br />
 
-              
-                  <select className="input-text" id="drop-down-text">
-                    <option value="Selection">Country</option>
-                    <option value="Selection1">erfrf</option>
-                    <option value="Selection2">efrrfref</option>
-                    <option value="Selection3">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                  </select>
+                <select className="input-text" id="drop-down-text">
+                  <option value="Selection">Country</option>
+                  <option value="Selection1">erfrf</option>
+                  <option value="Selection2">efrrfref</option>
+                  <option value="Selection3">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                </select>
 
-                  <select className="input-text" id="drop-down-text">
-                    <option value="Selection">State</option>
-                    <option value="Selection1">erfrf</option>
-                    <option value="Selection2">efrrfref</option>
-                    <option value="Selection3">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                    <option value="Selection1">erfrf</option>
-                    <option value="Selection2">efrrfref</option>
-                    <option value="Selection3">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                    <option value="Selection1">erfrf</option>
-                    <option value="Selection2">efrrfref</option>
-                    <option value="Selection3">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                    <option value="Selection1">erfrf</option>
-                    <option value="Selection2">efrrfref</option>
-                    <option value="Selection3">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                    <option value="Selection1">erfrf</option>
-                    <option value="Selection2">efrrfref</option>
-                    <option value="Selection3">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                    <option value="Selection4">erferfr</option>
-                  </select>
-                  <br />
-               
+                <select className="input-text" id="drop-down-text">
+                  <option value="Selection">State</option>
+                  <option value="Selection1">erfrf</option>
+                  <option value="Selection2">efrrfref</option>
+                  <option value="Selection3">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                  <option value="Selection1">erfrf</option>
+                  <option value="Selection2">efrrfref</option>
+                  <option value="Selection3">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                  <option value="Selection1">erfrf</option>
+                  <option value="Selection2">efrrfref</option>
+                  <option value="Selection3">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                  <option value="Selection1">erfrf</option>
+                  <option value="Selection2">efrrfref</option>
+                  <option value="Selection3">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                  <option value="Selection1">erfrf</option>
+                  <option value="Selection2">efrrfref</option>
+                  <option value="Selection3">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                  <option value="Selection4">erferfr</option>
+                </select>
+                <br />
 
                 <input
                   className="input-text"
@@ -199,40 +197,38 @@ function Donation() {
                 ></input>
                 <br />
 
-               
-                  <select className="input-text" id="drop-down-text">
-                    <option value="Selection">Select Month</option>
-                    <option value="Selection1">January</option>
-                    <option value="Selection2">February</option>
-                    <option value="Selection3">March</option>
-                    <option value="Selection4">April</option>
-                    <option value="Selection5">May</option>
-                    <option value="Selection6">June</option>
-                    <option value="Selection7">July</option>
-                    <option value="Selection8">August</option>
-                    <option value="Selection9">September</option>
-                    <option value="Selection10">October</option>
-                    <option value="Selection11">November</option>
-                    <option value="Selection12">December</option>
-                  </select>
+                <select className="input-text" id="drop-down-text">
+                  <option value="Selection">Select Month</option>
+                  <option value="Selection1">January</option>
+                  <option value="Selection2">February</option>
+                  <option value="Selection3">March</option>
+                  <option value="Selection4">April</option>
+                  <option value="Selection5">May</option>
+                  <option value="Selection6">June</option>
+                  <option value="Selection7">July</option>
+                  <option value="Selection8">August</option>
+                  <option value="Selection9">September</option>
+                  <option value="Selection10">October</option>
+                  <option value="Selection11">November</option>
+                  <option value="Selection12">December</option>
+                </select>
 
-                  <select className="input-text" id="drop-down-text">
-                    <option value="Selection">Select Year</option>
-                    <option value="Selection1">2023</option>
-                    <option value="Selection2">2024</option>
-                    <option value="Selection3">2025</option>
-                    <option value="Selection4">2026</option>
-                    <option value="Selection5">2027</option>
-                    <option value="Selection6">2028</option>
-                    <option value="Selection7">2029</option>
-                    <option value="Selection8">2030</option>
-                    <option value="Selection9">2031</option>
-                    <option value="Selection10">2032</option>
-                    <option value="Selection11">2033</option>
-                    <option value="Selection12">2034</option>
-                  </select>
-                  <br />
-               
+                <select className="input-text" id="drop-down-text">
+                  <option value="Selection">Select Year</option>
+                  <option value="Selection1">2023</option>
+                  <option value="Selection2">2024</option>
+                  <option value="Selection3">2025</option>
+                  <option value="Selection4">2026</option>
+                  <option value="Selection5">2027</option>
+                  <option value="Selection6">2028</option>
+                  <option value="Selection7">2029</option>
+                  <option value="Selection8">2030</option>
+                  <option value="Selection9">2031</option>
+                  <option value="Selection10">2032</option>
+                  <option value="Selection11">2033</option>
+                  <option value="Selection12">2034</option>
+                </select>
+                <br />
 
                 <input
                   className="input-text"
@@ -242,7 +238,9 @@ function Donation() {
                 ></input>
               </form>
 
-              <button className="donate-btn"  id="purchase-btn">Donate</button>
+              <button className="donate-btn" id="purchase-btn">
+                Donate
+              </button>
             </div>
 
             <p className="contact-info-text">

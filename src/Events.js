@@ -25,9 +25,7 @@ function Events() {
               </div>
               <div id="event-text-div">
                 <h4>Public Event</h4>
-                <h6>
-                  
-                </h6>
+
                 <p>Free with Museum admission.</p>
               </div>
               <div id="event-text-btn-div">
@@ -52,9 +50,7 @@ function Events() {
               </div>
               <div id="event-text-div">
                 <h4>Public Event</h4>
-                <h6>
-                 
-                </h6>
+
                 <p>Free with Museum admission.</p>
               </div>
               <div id="event-text-btn-div">
@@ -79,9 +75,7 @@ function Events() {
               </div>
               <div id="event-text-div">
                 <h4>Public Event</h4>
-                <h6>
-                  
-                </h6>
+
                 <p>Free with Museum admission.</p>
               </div>
               <div id="event-text-btn-div">
@@ -106,9 +100,7 @@ function Events() {
               </div>
               <div id="event-text-div">
                 <h4>Public Event</h4>
-                <h6>
-             
-                </h6>
+
                 <p>Free with Museum admission.</p>
               </div>
               <div id="event-text-btn-div">
@@ -133,9 +125,7 @@ function Events() {
               </div>
               <div id="event-text-div">
                 <h4>Public Event</h4>
-                <h6>
-               
-                </h6>
+
                 <p>Free with Museum admission.</p>
               </div>
               <div id="event-text-btn-div">
@@ -166,9 +156,7 @@ function Events() {
               </div>
               <div id="event-text-div">
                 <h4>Public Event</h4>
-                <h6>
-               
-                </h6>
+
                 <p>Free with Museum admission.</p>
               </div>
               <div id="event-text-btn-div">
@@ -184,7 +172,7 @@ function Events() {
               </div>
             </div>
             <div className="event">
-            <div id="event-img-div">
+              <div id="event-img-div">
                 <img
                   id="event-img"
                   src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80"
@@ -193,9 +181,7 @@ function Events() {
               </div>
               <div id="event-text-div">
                 <h4>Public Event</h4>
-                <h6>
-                
-                </h6>
+
                 <p>Free with Museum admission.</p>
               </div>
               <div id="event-text-btn-div">
@@ -211,7 +197,7 @@ function Events() {
               </div>
             </div>
             <div className="event">
-            <div id="event-img-div">
+              <div id="event-img-div">
                 <img
                   id="event-img"
                   src="https://images.unsplash.com/photo-1626040740284-35a3ba0cbd4d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
@@ -220,9 +206,7 @@ function Events() {
               </div>
               <div id="event-text-div">
                 <h4>Public Event</h4>
-                <h6>
-            
-                </h6>
+
                 <p>Free with Museum admission.</p>
               </div>
               <div id="event-text-btn-div">

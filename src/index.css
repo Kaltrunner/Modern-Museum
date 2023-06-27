@@ -305,7 +305,7 @@ body {
 
   .event {
     width: 100%;
-    height: 60vh;
+    height: auto;
     border: 1px solid #101820;
     border-radius: 4px;
   }
@@ -320,7 +320,6 @@ body {
   #event-img {
     width: 100%;
     height: 50%;
-    /* filter: grayscale(.9); */
   }
 
   #event-text-div {
@@ -411,11 +410,6 @@ body {
       background-position: center;
       background-size: cover;
     }
-
-  /* #exhibit-img {
-    width: 100%;
-   height: 50vh;
-  } */
 
   #coming-exhibit-img {
     width: 100%;
@@ -798,7 +792,7 @@ body {
 }
 
 .member-landing-text {
-  width: 40%;
+  width: 75%;
 }
 
 .member-landing-img {

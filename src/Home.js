@@ -52,14 +52,14 @@ function Home() {
               <h4 id="p">Café</h4>
             </div>
 
-          <Link id="home-links" to="/Shop" >
-            <div className="img-link">
-              <img
-                src="https://www.ringling.org/sites/default/files/Day-2-Pt-2_079.jpg"
-                alt=""
-              />
-              <h4 id="p">Shop</h4>
-            </div>
+            <Link id="home-links" to="/Shop">
+              <div className="img-link">
+                <img
+                  src="https://www.ringling.org/sites/default/files/Day-2-Pt-2_079.jpg"
+                  alt=""
+                />
+                <h4 id="p">Shop</h4>
+              </div>
             </Link>
           </div>
         </div>

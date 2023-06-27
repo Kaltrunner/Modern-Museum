@@ -23,19 +23,23 @@ function Exhibits() {
               <div id="exhibit-text-div">
                 <h4>Through The Eyes of Monet</h4>
                 <h6>
-                  An amazing and through provoking collection of paintings by Oscar-Claude Monet.
+                  An amazing and through provoking collection of paintings by
+                  Oscar-Claude Monet.
                 </h6>
                 <p>Through August</p>
               </div>
             </div>
             <div className="exhibit">
               <div className="native" id="exhibit-img-div">
-                <h4 id="inside-exhibit-img-text-3">The Lenape Tribs of Manahatta</h4>
+                <h4 id="inside-exhibit-img-text-3">
+                  The Lenape Tribs of Manahatta
+                </h4>
               </div>
               <div id="exhibit-text-div">
                 <h4>The Lenape Tribs of Manahatta</h4>
                 <h6>
-                Explore the history, Culture, and art of the original inhabitants of what is now Manhattan, NY, the Lenape.
+                  Explore the history, Culture, and art of the original
+                  inhabitants of what is now Manhattan, NY, the Lenape.
                 </h6>
                 <p>Through September</p>
               </div>
@@ -48,21 +52,19 @@ function Exhibits() {
               </div>
               <div id="exhibit-text-div">
                 <h4>Atrifacts & treasure from the age Vikings</h4>
-                <h6>
-                (description coming soon)
-                </h6>
+                <h6>(description coming soon)</h6>
                 <p>Through September</p>
               </div>
             </div>
             <div className="exhibit">
               <div className="pinoy" id="exhibit-img-div">
-                <h4 id="inside-exhibit-img-text-4">Traditional Arts of The Philippines</h4>
+                <h4 id="inside-exhibit-img-text-4">
+                  Traditional Arts of The Philippines
+                </h4>
               </div>
               <div id="exhibit-text-div">
                 <h4>Traditional Arts of The Philippines</h4>
-                <h6>
-                  (description coming soon)
-                </h6>
+                <h6>(description coming soon)</h6>
                 <p>Through October</p>
               </div>
             </div>
@@ -79,9 +81,7 @@ function Exhibits() {
                 />
                 <div id="exhibit-text-div">
                   <h4>EXHIBITION</h4>
-                  <h6>
-                  coming soon
-                  </h6>
+                  <h6>coming soon</h6>
                   <p>Coming in October</p>
                 </div>
               </div>
@@ -96,9 +96,7 @@ function Exhibits() {
               </div>
               <div id="exhibit-text-div">
                 <h4>EXHIBITION</h4>
-                <h6>
-                coming soon
-                </h6>
+                <h6>coming soon</h6>
                 <p>Coming in October</p>
               </div>
             </div>
@@ -111,9 +109,7 @@ function Exhibits() {
                 />
                 <div id="exhibit-text-div">
                   <h4>EXHIBITION</h4>
-                  <h6>
-                  coming soon
-                  </h6>
+                  <h6>coming soon</h6>
                   <p>Coming in October</p>
                 </div>
               </div>
@@ -127,9 +123,7 @@ function Exhibits() {
                 />
                 <div id="exhibit-text-div">
                   <h4>EXHIBITION</h4>
-                  <h6>
-                  coming soon
-                  </h6>
+                  <h6>coming soon</h6>
                   <p>Coming in Decimber</p>
                 </div>
               </div>
@@ -143,9 +137,7 @@ function Exhibits() {
                 />
                 <div id="exhibit-text-div">
                   <h4>EXHIBITION</h4>
-                  <h6>
-                    American Photagraphy from the 1980's
-                  </h6>
+                  <h6>American Photagraphy from the 1980's</h6>
                   <p>Coming in Decimber</p>
                 </div>
               </div>
@@ -159,9 +151,7 @@ function Exhibits() {
                 />
                 <div id="exhibit-text-div">
                   <h4>EXHIBITION</h4>
-                  <h6>
-                    coming soon
-                  </h6>
+                  <h6>coming soon</h6>
                   <p>Coming in Decimber</p>
                 </div>
               </div>

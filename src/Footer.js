@@ -39,10 +39,18 @@ function Footer() {
       </div>
 
       <div>
-        <Link className="footer-links" to="/Events" ><p className="footer-text">Events</p></Link>
-        <Link className="footer-links" to="/Exhibits" ><p className="footer-text">Exhibits</p></Link>
-        <Link className="footer-links" to="/Cafe" ><p className="footer-text">Café</p></Link>
-        <Link className="footer-links" to="/Shop" ><p className="footer-text">Shop</p></Link>
+        <Link className="footer-links" to="/Events">
+          <p className="footer-text">Events</p>
+        </Link>
+        <Link className="footer-links" to="/Exhibits">
+          <p className="footer-text">Exhibits</p>
+        </Link>
+        <Link className="footer-links" to="/Cafe">
+          <p className="footer-text">Café</p>
+        </Link>
+        <Link className="footer-links" to="/Shop">
+          <p className="footer-text">Shop</p>
+        </Link>
       </div>
     </div>
   );

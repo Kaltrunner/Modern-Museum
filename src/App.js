@@ -15,10 +15,8 @@ import Shop from "./Shop";
 import Cafe from "./Cafe";
 import "./index.css";
 
-
 function App() {
   return (
-    // <div className="app" >
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Header" element={<Header />} />
