@@ -10,6 +10,7 @@ function Contact() {
           page coming soon, <br /> thank you for your patience.
         </h1>
       </div>
+      <div className="line-div"></div>
       <Footer />
     </>
   );
