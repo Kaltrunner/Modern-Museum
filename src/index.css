@@ -28,6 +28,7 @@ body {
 }
 
 #header-title-link {
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -35,15 +36,16 @@ body {
   font-size: 3vw;
   margin: 2vw;
   color: #101820;
+  cursor: auto;
+}
+
+#nav-title {
+  cursor: pointer;
 }
 
 #nav-title:hover {
-  color: #101820;
-  cursor:auto;
-}
-
-.header-title:hover {
   color: #e9b114;
+  cursor: pointer;
 }
 
 .header-menu-div {
@@ -1131,7 +1133,7 @@ body {
 /* nav links Pages Styles */
 
 .nav-links-body-div {
-  margin-top: 18vw;
+  margin-top: 20vw;
   margin-left: 4rem;
   margin-bottom: 3vw;
 }

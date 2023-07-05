@@ -21,7 +21,7 @@ function Header() {
     <>
       <div className="header-body-div" id="navbar">
         <Link id="header-title-link" to="/">
-          <h4 className="header-title" id="nav-title">
+          <h4 className="header-title">
             Nútímasafn
           </h4>
         </Link>
