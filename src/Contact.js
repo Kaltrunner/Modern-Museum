@@ -1,10 +1,10 @@
-import ComponentNav from "./ComponentNav";
+import NavBarFull from "./NavBarFull";
 import Footer from "./Footer";
 
 function Contact() {
   return (
     <>
-      <ComponentNav />
+      <NavBarFull />
       <div className="contact-body-div">
         <h1 className="text">
           page coming soon, <br /> thank you for your patience.

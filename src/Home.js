@@ -44,18 +44,20 @@ function Home() {
               </div>
             </Link>
 
-            <div className="img-link">
-              <img
-                src="https://images.unsplash.com/photo-1511214053397-d6c97488c8f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                alt=""
-              />
-              <h4 id="p">Café</h4>
-            </div>
+            <Link id="home-links" to="/Cafe">
+              <div className="img-link">
+                <img
+                  src="https://images.unsplash.com/photo-1511214053397-d6c97488c8f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  alt=""
+                />
+                <h4 id="p">Café</h4>
+              </div>
+            </Link>
 
             <Link id="home-links" to="/Shop">
               <div className="img-link">
                 <img
-                  src="https://www.ringling.org/sites/default/files/Day-2-Pt-2_079.jpg"
+                  src="https://images.unsplash.com/photo-1619335680636-74b3fce95bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
                   alt=""
                 />
                 <h4 id="p">Shop</h4>

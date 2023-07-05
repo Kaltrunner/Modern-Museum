@@ -16,22 +16,25 @@ body {
 
 .header-body-div {
   width: 100%;
-  height: 8vw;
+  height: 16vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   top: 0;
   z-index: 999;
-  background-color: #fdf7e6;
+  background-color: transparent;
   transition: top 0.5s;
+}
+
+#header-title-link {
+  text-decoration: none;
 }
 
 .header-title {
   font-size: 3vw;
   margin: 2vw;
   color: #101820;
-  text-decoration: underline #fdf7e6;
 }
 
 #nav-title:hover {
@@ -51,14 +54,12 @@ body {
   font-size: 2vw;
   font-weight: 300;
   display: inline-block;
-  margin: 0 1rem;
-  /* border-bottom: 2px solid #fdf7e6; */
+  margin: 1rem;
   color: #101820;
 }
 .menu-item:hover {
   cursor: pointer;
   color: #e9b114;
-  /* border-bottom: 2px solid #101820; */
 }
 
 
@@ -73,7 +74,7 @@ body {
 
 .home-body-div {
   margin: 4vw;
-  margin-top: 12vw;
+  margin-top: 20vw;
 }
 
 .home-body-text {
@@ -89,7 +90,6 @@ body {
 }
 
 .home-img-links-grid {
-    /* margin: 4vw; */
     display: grid;
     align-items: center;
     justify-content: center;
@@ -261,7 +261,7 @@ body {
 
 .events-body-div {
   margin: 4vw;
-  margin-top: 20vh;
+  margin-top: 18vw;
 }
 
 .comp-header-text {
@@ -289,7 +289,6 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-column-gap: 3vw;
-  /* grid-template-columns: fit-content(40vw); */
   }
 
   .event-grid-div-upcoming  > * {
@@ -365,7 +364,7 @@ body {
 
   .exhibits-body-div {
     margin: 4vw;
-    margin-top: 22vh;
+    margin-top: 18vw;
   }
 
   .exhibits-grid-div {
@@ -460,12 +459,10 @@ body {
     font-size: 4vw;
     font-family: 'Times New Roman', Times, serif;
     color: #21ed0f;
-    /* margin: 20vh 4vw; */
     padding-left: 4vw;
   }
 
   #inside-exhibit-img-text-4 {
-    /* width: 50%; */
     font-size: 3vw;
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
@@ -477,7 +474,7 @@ body {
 
   .shop-body-div {
     margin: 4vw;
-    margin-top: 20vh;
+    margin-top: 18vw;
   }
 
   .text {
@@ -491,7 +488,7 @@ body {
 
   .cafe-body-div {
     margin: 4vw;
-    margin-top: 20vh;
+    margin-top: 18vw;
   }
 
   .text {
@@ -552,7 +549,6 @@ body {
 
 .ticket-img-div {
   width: 45vw;
-  height: 30vw;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
@@ -602,12 +598,10 @@ body {
   width: 100%;
   border-radius: 12px;
   height: 9vh;
-  /* background: #fff; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-around;
-  /* margin-top: 2vw; */
   margin-bottom: 6vh;
 }
 
@@ -639,7 +633,6 @@ body {
   width: 40%;
   height: 4vh;
   font-weight: 700;
-  /* margin: 0 auto; */
   cursor: pointer;
   border-radius: 25px;
   transition: all .25s ease-in-out;
@@ -648,8 +641,6 @@ body {
 #purchase-btn:hover {
   border: 2px solid #14e9b1;
   background: #14e9b1;
-  /* color: #e9b114; */
-  /* transition: all .25s ease-in-out; */
 }
 
 .add-to-cart {
@@ -797,12 +788,12 @@ body {
 
 .member-landing-img {
   width: 40vw;
-  height: 56vw;
   border-radius: 12px;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0vh 4vw;
 }
 
 #memeber-img {
@@ -826,9 +817,6 @@ body {
 }
 
 .top-info {
-  /* margin-top: 1vh;
-  margin-left: 1vw;
-  margin-right: 1vw; */
   margin: 0 1vw;
 }
 
@@ -989,7 +977,6 @@ body {
 .donate-img-div {
   filter: grayscale(100%);
   width: 40vw;
-  height: 56vw;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
@@ -1054,7 +1041,6 @@ body {
 }
 
 .form-div {
-  /* width: 50%; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1096,7 +1082,6 @@ body {
 #drop-down-text {
   width: 14.45vw;
   margin-right: 1.5vw;
-  /* padding: 0; */
 }
 
 .contact-info-text {
@@ -1114,11 +1099,6 @@ body {
   transition: all .25s ease-in-out;
 }
 
-/* .donate-btn:hover {
-  transition: all .25s ease-in-out;
-  cursor: pointer;
-} */
-
 .donate-btn:active {
   background-color: #e9b114;
   color: #e9b114;
@@ -1129,7 +1109,7 @@ body {
 
 .contact-body-div {
   margin: 4vw;
-  margin-top: 20vh;
+  margin-top: 18vw;
 }
 
 .text {
@@ -1151,7 +1131,7 @@ body {
 /* nav links Pages Styles */
 
 .nav-links-body-div {
-  margin-top: 8vw;
+  margin-top: 18vw;
   margin-left: 4rem;
   margin-bottom: 3vw;
 }
@@ -1165,6 +1145,17 @@ body {
   margin-top: 16vw;
 }
 
+
+/* NavBarFull Styles */
+
+.menu-list {
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
 @media only screen and (max-width: 1100px) {
   .gallery-body {
     flex-direction: column;
@@ -1175,9 +1166,7 @@ body {
 }
 
 .margin-div {
-  /* background-color: #1; */
   width: 300px;
-  /* border: 15px solid green; */
   padding: 30px;
   margin-top: 15px;
   margin-left: 15px;

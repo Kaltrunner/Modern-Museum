@@ -27,7 +27,7 @@ function ExploreNav() {
   return (
     <>
       <div className="header-body-div" id="navbar">
-        <Link to="/">
+        <Link id="header-title-link"  to="/">
           <h4 className="header-title">Nútímasafn</h4>
         </Link>
         <div className="header-menu-div">

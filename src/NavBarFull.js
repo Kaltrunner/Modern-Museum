@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
-function ComponentNav() {
+function NavBarFull() {
   const [currentPage, setCurrentPage] = useState("");
 
   window.onscroll = function () {
@@ -27,8 +27,10 @@ function ComponentNav() {
   return (
     <>
       <div className="header-body-div" id="navbar">
-        <Link id="header-title-link"  to="/">
-          <h4 className="header-title">Nútímasafn</h4>
+        <Link id="header-title-link" to="/">
+          <h4 className="header-title" id="nav-title">
+            Nútímasafn
+          </h4>
         </Link>
         <div className="header-menu-div">
           <div className="menu-list">
@@ -64,6 +66,32 @@ function ComponentNav() {
                 Contact
               </p>
             </Link>
+            <Link to="/Events">
+              <p
+                className="menu-item"
+                id={currentPage === "/Events" ? "on" : ""}
+              >
+                Events
+              </p>
+            </Link>
+            <Link to="/Exhibits">
+              <p
+                className="menu-item"
+                id={currentPage === "/Exhibits" ? "on" : ""}
+              >
+                Exhibits
+              </p>
+            </Link>
+            <Link to="/Cafe">
+              <p className="menu-item" id={currentPage === "/Cafe" ? "on" : ""}>
+                Café
+              </p>
+            </Link>
+            <Link to="/Shop">
+              <p className="menu-item" id={currentPage === "/Shop" ? "on" : ""}>
+                Shop
+              </p>
+            </Link>
           </div>
         </div>
       </div>
@@ -72,4 +100,4 @@ function ComponentNav() {
   );
 }
 
-export default ComponentNav;
+export default NavBarFull;

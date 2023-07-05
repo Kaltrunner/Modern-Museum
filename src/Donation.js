@@ -1,10 +1,10 @@
-import ComponentNav from "./ComponentNav";
+import NavBarFull from "./NavBarFull";
 import Footer from "./Footer";
 
 function Donation() {
   return (
     <>
-      <ComponentNav />
+      <NavBarFull />
       <div className="nav-links-body-div">
         <div className="donation-header-div">
           <div className="donation-header-text">

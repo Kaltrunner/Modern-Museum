@@ -1,10 +1,10 @@
-import ExploreNav from "./ExploreNav";
+import NavBarFull from "./NavBarFull";
 import Footer from "./Footer";
 
 function Shop() {
   return (
     <>
-      <ExploreNav />
+      <NavBarFull />
       <div className="shop-body-div">
         <h1 className="text">
           page coming soon, <br /> thank you for your patience.

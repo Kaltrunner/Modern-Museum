@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import ComponentNav from "./ComponentNav";
+import { useState, useEffect } from "react";
+import NavBarFull from "./NavBarFull";
 import Footer from "./Footer";
 
 function Tickets() {
@@ -10,40 +10,22 @@ function Tickets() {
   const [ticketCountStudent, setTicketCountStudent] = useState(0);
   const totalTicketCount =
     ticketCountAdult + ticketCountChild + ticketCountStudent + ticketCount;
+  const [totalTicketCost, setTotalTicketCost] = useState(0);
 
-  // const TicketCostCalculator = () => {
-  //   const [ticketCountAdult, setTicketCountAdult] = useState(0);
-  //   const [ticketCountChild, setTicketCountChild] = useState(0);
-  //   const [ticketCountStudent, setTicketCountStudent] = useState(0);
-  //   const [ticketCountSenior, setTicketCountSenior] = useState(0);
-  //   const [totalCost, setTotalCost] = useState(0.00);
-  // };
+  useEffect(() => {
+    const adultCost = 30;
+    const childCost = 5;
+    const studentCost = 15;
+    const seniorCost = 20;
 
-  // const calculateTotalCost = () => {
-  //   const adultTicketCost = 30;
-  //   const childTicketCost = 5;
-  //   const studentTicketCost = 15;
-  //   const seniorTicketCost = 20;
-  //   const totalCost =
-  //     ticketCountAdult * adultTicketCost +
-  //     ticketCountChild * childTicketCost +
-  //     ticketCountStudent * studentTicketCost +
-  //     ticketCount * seniorTicketCost;
-  //   document.getElementById("total-ticket-cost").innerHTML = `${totalCost}`;
-  // };
+    const totalCost =
+      ticketCountAdult * adultCost +
+      ticketCountChild * childCost +
+      ticketCountStudent * studentCost +
+      ticketCount * seniorCost;
 
-  // const calculateTotalCost = () => {
-  //   const adultTicketCost = 30;
-  //   const childTicketCost = 5;
-  //   const studentTicketCost = 15;
-  //   const seniorTicketCost = 20;
-  //   const calculatedTotalCost =
-  //     ticketCountAdult * adultTicketCost +
-  //     ticketCountChild * childTicketCost +
-  //     ticketCountStudent * studentTicketCost +
-  //     ticketCountSenior * seniorTicketCost;
-  //   setTotalCost(calculatedTotalCost);
-  // };
+    setTotalTicketCost(totalCost);
+  }, [ticketCountAdult, ticketCountChild, ticketCountStudent, ticketCount]);
 
   const addTicketAdult = () => {
     setTicketCountAdult((prevCount) => prevCount + 1);
@@ -90,7 +72,7 @@ function Tickets() {
 
   return (
     <>
-      <ComponentNav />
+      <NavBarFull />
       <div className="nav-links-body-div" id="tickets">
         <h1 className="comp-header-text">Plan your visit</h1>
         <div className="ticket-div">
@@ -159,14 +141,8 @@ function Tickets() {
             <div className="cart-text-div">
               <p className="p-text">Number of tickets: {totalTicketCount}</p>
               <p id="total-ticket-cost" className="p-text">
-                Subtotal ${}0.00
+                Subtotal ${totalTicketCost.toFixed(2)}
               </p>
-              {/* <p id="total-ticket-cost" className="p-text">
-                {}
-              </p> */}
-              {/* <p id="total-ticket-cost" className="p-text">
-                ${}
-              </p> */}
             </div>
             <div className="purchase-btn-div">
               <button id="purchase-btn">PURCHASE</button>

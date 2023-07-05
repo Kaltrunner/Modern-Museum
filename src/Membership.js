@@ -1,10 +1,10 @@
-import ComponentNav from "./ComponentNav";
+import NavBarFull from "./NavBarFull";
 import Footer from "./Footer";
 
 function Membership() {
   return (
     <>
-      <ComponentNav />
+      <NavBarFull />
       <div className="nav-links-body-div">
         <div className="member-landing">
           <div className="member-landing-text">

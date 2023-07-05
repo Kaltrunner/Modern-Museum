@@ -1,11 +1,11 @@
-import ExploreNav from "./ExploreNav";
+import NavBarFull from "./NavBarFull";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 
 function Events() {
   return (
     <>
-      <ExploreNav />
+      <NavBarFull />
       <div className="events-body-div">
         <div className="events-header-div">
           <h1 className="comp-header-text">

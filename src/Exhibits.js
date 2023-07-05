@@ -1,10 +1,10 @@
-import ExploreNav from "./ExploreNav";
+import NavBarFull from "./NavBarFull";
 import Footer from "./Footer";
 
 function Exhibits() {
   return (
     <>
-      <ExploreNav />
+      <NavBarFull />
       <div className="exhibits-body-div">
         <div className="exhibits-header-div">
           <h1 className="comp-header-text">
