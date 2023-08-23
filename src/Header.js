@@ -8,8 +8,8 @@ function Header() {
 
   function scrollFunction() {
     if (
-      document.body.scrollTop > 400 ||
-      document.documentElement.scrollTop > 400
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 100
     ) {
       document.getElementById("navbar").style.top = "-150px";
     } else {
